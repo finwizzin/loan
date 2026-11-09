@@ -1,0 +1,2408 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finwizz Financial Services | Instant Personal Loan from ₹1 Lakh to ₹1 Crore</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brandNavy: '#0A3D78',
+            brandDarkNavy: '#002060',
+            brandElectricBlue: '#0080FF',
+            brandOrange: '#F15A24',
+            brandOrangeHover: '#D94917',
+            brandLightOrange: '#FFF5F0',
+            brandCardBg: '#F8FAFC',
+            brandSoftBlue: '#EFF6FF',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          boxShadow: {
+            'custom': '0 10px 30px -5px rgba(10, 61, 120, 0.08)',
+            'cta': '0 8px 25px -3px rgba(241, 90, 36, 0.35)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Continuous Marquee Animation */
+    @keyframes marqueeScroll {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+
+    .animate-ticker {
+      display: flex;
+      width: max-content;
+      animation: marqueeScroll 35s linear infinite;
+    }
+
+    .animate-ticker:hover {
+      animation-play-state: paused;
+    }
+
+    /* Modal Backdrop Blur */
+    .modal-backdrop {
+      background-color: rgba(6, 23, 44, 0.7);
+      backdrop-filter: blur(4px);
+    }
+
+    /* Accent Underline */
+    .orange-accent-line {
+      width: 60px;
+      height: 4px;
+      background-color: #F15A24;
+      border-radius: 9999px;
+      margin: 12px auto 0;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800 font-sans antialiased selection:bg-brandOrange selection:text-white pb-20 sm:pb-0">
+
+  <!-- ========================================================
+       TOP ANNOUNCEMENT & CONTACT SUPPORT BAR
+  ======================================================== -->
+  <aside class="bg-brandDarkNavy text-white py-2 px-4 text-xs font-medium border-b border-blue-900/40">
+    <div
+      class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2 text-center md:text-left">
+      <div class="flex flex-wrap items-center justify-center gap-4 text-blue-100">
+        <span class="inline-flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5 text-brandOrange" fill="currentColor" viewBox="0 0 20 20">
+            <path
+              d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z" />
+          </svg>
+          Helpline: <a href="tel:+918861418090"
+            class="hover:text-white font-semibold underline decoration-brandOrange decoration-2 underline-offset-2">+91
+            8861418090</a> / <a href="tel:+918148105058"
+            class="hover:text-white font-semibold underline decoration-brandOrange decoration-2 underline-offset-2">+91
+            81481 05058</a>
+        </span>
+        <span class="hidden sm:inline text-blue-400">•</span>
+        <span class="inline-flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5 text-brandOrange" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+          </svg>
+          <a href="mailto:salesfinwizz2026@gmail.com" class="hover:text-white">salesfinwizz2026@gmail.com</a>
+        </span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span
+          class="bg-blue-800/60 text-blue-200 px-2.5 py-0.5 rounded text-[11px] font-semibold border border-blue-700/50">Since
+          2005</span>
+        <span class="text-orange-300 font-semibold text-[11px]">⚡ 100% Free Consultation • Disbursal in 24-48
+          Hours</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ========================================================
+       STICKY NAVIGATION HEADER
+  ======================================================== -->
+  <header
+    class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm transition-all duration-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+
+      <!-- Brand Logo (Recreated pure SVG/CSS according to identity) -->
+      <a href="#" class="flex flex-col group focus:outline-none">
+        <div class="flex items-baseline font-black tracking-tight text-3xl sm:text-4xl italic select-none">
+          <span class="text-brandDarkNavy group-hover:text-brandNavy transition-colors">FIN</span>
+          <span class="text-brandElectricBlue">WIZZ</span>
+        </div>
+        <span class="text-[9px] sm:text-[10px] font-extrabold tracking-[0.25em] text-gray-900 uppercase -mt-1 pl-0.5">
+          LOANS SIMPLIFIED
+        </span>
+      </a>
+
+      <!-- Desktop Nav Anchors -->
+      <nav class="hidden lg:flex items-center gap-8 text-sm font-semibold text-gray-600">
+        <a href="#features" class="hover:text-brandOrange transition-colors">Features</a>
+        <a href="#bank-rates" class="hover:text-brandOrange transition-colors">19+ Partner Banks</a>
+        <a href="#eligibility" class="hover:text-brandOrange transition-colors">Eligibility</a>
+        <a href="#process" class="hover:text-brandOrange transition-colors">How It Works</a>
+        <a href="#reviews" class="hover:text-brandOrange transition-colors">Reviews</a>
+        <a href="#faqs" class="hover:text-brandOrange transition-colors">FAQs</a>
+      </nav>
+
+      <!-- Primary Action Button -->
+      <div class="flex items-center gap-3">
+        <button onclick="openLeadModal()"
+          class="bg-brandOrange hover:bg-brandOrangeHover text-white font-bold text-sm px-6 py-3 rounded-full shadow-cta transition-all duration-200 transform hover:-translate-y-0.5 active:translate-y-0 flex items-center gap-2">
+          <span>Apply Now</span>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================
+       HERO SECTION (InCred Inspired Layout - Big & Bottom Aligned)
+  ======================================================== -->
+  <section
+    class="relative pt-10 pb-16 lg:pt-16 lg:pb-24 bg-gradient-to-b from-brandSoftBlue via-white to-white overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-end">
+
+        <!-- Left Column: Copy & Value Proposition (6 Columns for balanced space) -->
+        <div class="lg:col-span-6 space-y-6 text-center lg:text-left">
+
+          <div
+            class="inline-flex items-center gap-2 bg-orange-50 border border-orange-200/80 text-brandOrange px-4 py-1.5 rounded-full text-xs sm:text-sm font-bold shadow-sm">
+            <span class="w-2 h-2 rounded-full bg-brandOrange animate-pulse"></span>
+            <span>⚡ Lowest ROI Starting at 9.95% p.a. • Up to 72 Months</span>
+          </div>
+
+          <h1
+            class="text-3xl sm:text-5xl lg:text-5xl xl:text-6xl font-black text-gray-900 leading-[1.15] tracking-tight">
+            Apply for Instant <br class="hidden sm:block">
+            Personal Loan From <br>
+            <span class="text-brandNavy">₹1 Lakh</span> to <span class="text-brandOrange">₹1 Crore</span>
+          </h1>
+
+          <p class="text-base sm:text-lg text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed font-normal">
+            Turn your financial goals into reality with Finwizz. 100% paperless verification, zero service fees, and
+            direct bank account disbursal for salaried professionals.
+          </p>
+
+          <!-- 3 Feature Icon Cards (InCred Style) -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2 text-left">
+            <div class="bg-white p-3.5 sm:p-4 rounded-2xl border border-gray-100 shadow-custom flex items-center gap-3">
+              <div
+                class="w-10 h-10 rounded-xl bg-blue-50 flex items-center justify-center text-brandNavy flex-shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <div>
+                <p class="text-xs font-bold text-gray-900">100% Digital</p>
+                <p class="text-[11px] text-gray-500">Paperless Process</p>
+              </div>
+            </div>
+
+            <div class="bg-white p-3.5 sm:p-4 rounded-2xl border border-gray-100 shadow-custom flex items-center gap-3">
+              <div
+                class="w-10 h-10 rounded-xl bg-orange-50 flex items-center justify-center text-brandOrange flex-shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <div>
+                <p class="text-xs font-bold text-gray-900">Direct Disbursal</p>
+                <p class="text-[11px] text-gray-500">Bank to Account</p>
+              </div>
+            </div>
+
+            <div class="bg-white p-3.5 sm:p-4 rounded-2xl border border-gray-100 shadow-custom flex items-center gap-3">
+              <div
+                class="w-10 h-10 rounded-xl bg-emerald-50 flex items-center justify-center text-emerald-600 flex-shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <div>
+                <p class="text-xs font-bold text-gray-900">100% Free</p>
+                <p class="text-[11px] text-gray-500">Zero Client Fees</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Action CTAs -->
+          <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+            <button onclick="openLeadModal()"
+              class="w-full sm:w-auto bg-brandOrange hover:bg-brandOrangeHover text-white font-extrabold text-base px-8 py-4 rounded-full shadow-cta transition-all duration-200 transform hover:-translate-y-0.5 active:translate-y-0">
+              Check Loan Eligibility (In Less Than 60s) →
+            </button>
+          </div>
+
+          <div class="flex items-center justify-center lg:justify-start gap-6 text-xs text-gray-500 font-medium pt-1">
+            <span class="flex items-center gap-1.5">
+              <svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd" />
+              </svg>
+              No Impact on Credit Score
+            </span>
+            <span class="flex items-center gap-1.5">
+              <svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd" />
+              </svg>
+              256-Bit Bank-Grade Security
+            </span>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Model PNG Image (InCred Look: Large, Grounded, Flush to Bottom) -->
+        <div
+          class="lg:col-span-6 flex justify-center lg:justify-end items-end relative self-end mt-8 lg:mt-0 leading-none">
+          <!-- Subtle Glow Circle Behind the Model -->
+          <div
+            class="absolute bottom-0 right-1/2 translate-x-1/2 lg:translate-x-0 lg:right-6 w-80 h-80 sm:w-96 sm:h-96 bg-gradient-to-tr from-blue-200/50 to-orange-200/30 rounded-full blur-3xl -z-10 pointer-events-none">
+          </div>
+
+          <!-- Large Transparent Cutout Image -->
+          <img src="finwizz header image.png" alt="Finwizz Instant Personal Loan Professional"
+            class="w-full max-w-[360px] sm:max-w-[460px] md:max-w-[540px] lg:max-w-[600px] xl:max-w-[660px] h-auto object-contain block -mb-16 lg:-mb-24 relative z-10 select-none pointer-events-none transition-all duration-300">
+        </div>
+
+      </div>
+    </div>
+  </section>
+  </section>
+
+  <!-- ========================================================
+       BANK & NBFC RATES MARQUEE TICKER SECTION
+  ======================================================== -->
+  <section id="bank-rates" class="bg-brandDarkNavy py-8 text-white overflow-hidden border-y border-blue-900/60">
+    <div class="max-w-7xl mx-auto px-4 text-center mb-4">
+      <p class="text-xs sm:text-sm font-bold uppercase tracking-widest text-orange-400">
+        ⚡ Compare & Apply Across 19+ Leading Bank & NBFC Partners
+      </p>
+    </div>
+
+    <!-- Infinite Auto-scrolling Ticker -->
+    <div class="relative w-full overflow-hidden whitespace-nowrap">
+      <div class="animate-ticker flex items-center gap-6 py-2">
+
+        <!-- Bank 1: Kotak -->
+        <div
+          class="inline-flex items-center gap-3 bg-white/10 border border-white/10 px-5 py-2.5 rounded-full backdrop-blur-sm">
+          <div
+            class="w-6 h-6 rounded-full bg-red-600 text-white flex items-center justify-center font-bold text-[10px]">K
+          </div>
+          <span class="font-bold text-sm">Kotak Mahindra Bank</span>
+          <span class="bg-emerald-500 text-white font-black text-xs px-2.5 py-0.5 rounded-full">9.95%</span>
+        </div>
+
+        <!-- Bank 2: HDFC -->
+        <div
+          class="inline-flex items-center gap-3 bg-white/10 border border-white/10 px-5 py-2.5 rounded-full backdrop-blur-sm">
+          <div
+            class="w-6 h-6 rounded-full bg-blue-700 text-white flex items-center justify-center font-bold text-[10px]">H
+          </div>
+          <span class="font-bold text-sm">HDFC Bank Ltd.</span>
+          <span class="bg-emerald-500 text-white font-black text-xs px-2.5 py-0.5 rounded-full">9.99%</span>
+        </div>
+
+        <!-- Bank 3: Axis -->
+        <div
+          class="inline-flex items-center gap-3 bg-white/10 border border-white/10 px-5 py-2.5 rounded-full backdrop-blur-sm">
+          <div
+            class="w-6 h-6 rounded-full bg-rose-700 text-white flex items-center justify-center font-bold text-[10px]">A
+          </div>
+          <span class="font-bold text-sm">Axis Bank Ltd.</span>
+          <span class="bg-emerald-500 text-white font-black text-xs px-2.5 py-0.5 rounded-full">9.99%</span>
+        </div>
+
+        <!-- Bank 4: ICICI -->
+        <div
+          class="inline-flex items-center gap-3 bg-white/10 border border-white/10 px-5 py-2.5 rounded-full backdrop-blur-sm">
+          <div
+            class="w-6 h-6 rounded-full bg-amber-600 text-white flex items-center justify-center font-bold text-[10px]">
+            I</div>
+          <span class="font-bold text-sm">ICICI Bank Ltd.</span>
+          <span class="bg-emerald-500 text-white font-black text-xs px-2.5 py-0.5 rounded-full">9.99%</span>
+        </div>
+
+        <!-- Bank 5: IndusInd -->
+        <div
+          class="inline-flex items-center gap-3 bg-white/10 border border-white/10 px-5 py-2.5 rounded-full backdrop-blur-sm">
+          <div
+            class="w-6 h-6 rounded-full bg-red-800 text-white flex items-center justify-center font-bold text-[10px]">IN
+          </div>
+          <span class="font-bold text-sm">IndusInd Bank</span>
+          <span class="bg-emerald-500 text-white font-black text-xs px-2.5 py-0.5 rounded-full">9.99%</span>
+        </div>
+
+        <!-- Bank 6: IDFC FIRST -->
+        <div
+          class="inline-flex items-center gap-3 bg-white/10 border border-white/10 px-5 py-2.5 rounded-full backdrop-blur-sm">
+          <div
+            class="w-6 h-6 rounded-full bg-red-700 text-white flex items-center justify-center font-bold text-[10px]">ID
+          </div>
+          <span class="font-bold text-sm">IDFC FIRST Bank</span>
+          <span class="bg-emerald-500 text-white font-black text-xs px-2.5 py-0.5 rounded-full">9.99%</span>
+        </div>
+
+        <!-- Bank 7: Bandhan -->
+        <div
+          class="inline-flex items-center gap-3 bg-white/10 border border-white/10 px-5 py-2.5 rounded-full backdrop-blur-sm">
+          <div
+            class="w-6 h-6 rounded-full bg-blue-500 text-white flex items-center justify-center font-bold text-[10px]">B
+          </div>
+          <span class="font-bold text-sm">Bandhan Bank</span>
+          <span class="bg-emerald-500 text-white font-black text-xs px-2.5 py-0.5 rounded-full">9.99%</span>
+        </div>
+
+        <!-- Bank 8: South Indian Bank -->
+        <div
+          class="inline-flex items-center gap-3 bg-white/10 border border-white/10 px-5 py-2.5 rounded-full backdrop-blur-sm">
+          <div
+            class="w-6 h-6 rounded-full bg-red-600 text-white flex items-center justify-center font-bold text-[10px]">S
+          </div>
+          <span class="font-bold text-sm">South Indian Bank</span>
+          <span class="bg-emerald-500 text-white font-black text-xs px-2.5 py-0.5 rounded-full">9.99%</span>
+        </div>
+
+        <!-- Bank 9: Bajaj Finance -->
+        <div
+          class="inline-flex items-center gap-3 bg-white/10 border border-white/10 px-5 py-2.5 rounded-full backdrop-blur-sm">
+          <div
+            class="w-6 h-6 rounded-full bg-sky-600 text-white flex items-center justify-center font-bold text-[10px]">BJ
+          </div>
+          <span class="font-bold text-sm">Bajaj Finance</span>
+          <span class="bg-emerald-500 text-white font-black text-xs px-2.5 py-0.5 rounded-full">10.00%</span>
+        </div>
+
+        <!-- Bank 10: Yes Bank -->
+        <div
+          class="inline-flex items-center gap-3 bg-white/10 border border-white/10 px-5 py-2.5 rounded-full backdrop-blur-sm">
+          <div
+            class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-[10px]">Y
+          </div>
+          <span class="font-bold text-sm">Yes Bank Ltd.</span>
+          <span class="bg-orange-500 text-white font-black text-xs px-2.5 py-0.5 rounded-full">10.85%</span>
+        </div>
+
+        <!-- Bank 11: Piramal -->
+        <div
+          class="inline-flex items-center gap-3 bg-white/10 border border-white/10 px-5 py-2.5 rounded-full backdrop-blur-sm">
+          <div
+            class="w-6 h-6 rounded-full bg-amber-700 text-white flex items-center justify-center font-bold text-[10px]">
+            P</div>
+          <span class="font-bold text-sm">Piramal Finance</span>
+          <span class="bg-orange-500 text-white font-black text-xs px-2.5 py-0.5 rounded-full">10.99%</span>
+        </div>
+
+        <!-- Bank 12: Tata Capital -->
+        <div
+          class="inline-flex items-center gap-3 bg-white/10 border border-white/10 px-5 py-2.5 rounded-full backdrop-blur-sm">
+          <div
+            class="w-6 h-6 rounded-full bg-cyan-700 text-white flex items-center justify-center font-bold text-[10px]">T
+          </div>
+          <span class="font-bold text-sm">Tata Capital</span>
+          <span class="bg-orange-500 text-white font-black text-xs px-2.5 py-0.5 rounded-full">10.99%</span>
+        </div>
+
+        <!-- Bank 13: Aditya Birla -->
+        <div
+          class="inline-flex items-center gap-3 bg-white/10 border border-white/10 px-5 py-2.5 rounded-full backdrop-blur-sm">
+          <div
+            class="w-6 h-6 rounded-full bg-rose-600 text-white flex items-center justify-center font-bold text-[10px]">
+            AB</div>
+          <span class="font-bold text-sm">Aditya Birla Finance</span>
+          <span class="bg-orange-500 text-white font-black text-xs px-2.5 py-0.5 rounded-full">11.99%</span>
+        </div>
+
+        <!-- Bank 14: FatakPay -->
+        <div
+          class="inline-flex items-center gap-3 bg-white/10 border border-white/10 px-5 py-2.5 rounded-full backdrop-blur-sm">
+          <div
+            class="w-6 h-6 rounded-full bg-orange-600 text-white flex items-center justify-center font-bold text-[10px]">
+            FP</div>
+          <span class="font-bold text-sm">FatakPay</span>
+          <span class="bg-orange-500 text-white font-black text-xs px-2.5 py-0.5 rounded-full">13.00%</span>
+        </div>
+
+        <!-- Bank 15: InCred Finance -->
+        <div
+          class="inline-flex items-center gap-3 bg-white/10 border border-white/10 px-5 py-2.5 rounded-full backdrop-blur-sm">
+          <div
+            class="w-6 h-6 rounded-full bg-brandOrange text-white flex items-center justify-center font-bold text-[10px]">
+            IN</div>
+          <span class="font-bold text-sm">InCred Finance</span>
+          <span class="bg-rose-500 text-white font-black text-xs px-2.5 py-0.5 rounded-full">13.99%</span>
+        </div>
+
+        <!-- Bank 16: Axis Finance -->
+        <div
+          class="inline-flex items-center gap-3 bg-white/10 border border-white/10 px-5 py-2.5 rounded-full backdrop-blur-sm">
+          <div
+            class="w-6 h-6 rounded-full bg-rose-800 text-white flex items-center justify-center font-bold text-[10px]">
+            AF</div>
+          <span class="font-bold text-sm">Axis Finance</span>
+          <span class="bg-rose-500 text-white font-black text-xs px-2.5 py-0.5 rounded-full">14.00%</span>
+        </div>
+
+        <!-- Bank 17: SMFG India Credit -->
+        <div
+          class="inline-flex items-center gap-3 bg-white/10 border border-white/10 px-5 py-2.5 rounded-full backdrop-blur-sm">
+          <div
+            class="w-6 h-6 rounded-full bg-green-700 text-white flex items-center justify-center font-bold text-[10px]">
+            SM</div>
+          <span class="font-bold text-sm">SMFG India Credit</span>
+          <span class="bg-rose-500 text-white font-black text-xs px-2.5 py-0.5 rounded-full">14.00%</span>
+        </div>
+
+        <!-- Bank 18: Poonawalla Fincorp -->
+        <div
+          class="inline-flex items-center gap-3 bg-white/10 border border-white/10 px-5 py-2.5 rounded-full backdrop-blur-sm">
+          <div
+            class="w-6 h-6 rounded-full bg-indigo-700 text-white flex items-center justify-center font-bold text-[10px]">
+            PF</div>
+          <span class="font-bold text-sm">Poonawalla Fincorp</span>
+          <span class="bg-rose-500 text-white font-black text-xs px-2.5 py-0.5 rounded-full">14.00%</span>
+        </div>
+
+        <!-- Bank 19: Finnable -->
+        <div
+          class="inline-flex items-center gap-3 bg-white/10 border border-white/10 px-5 py-2.5 rounded-full backdrop-blur-sm">
+          <div
+            class="w-6 h-6 rounded-full bg-pink-700 text-white flex items-center justify-center font-bold text-[10px]">
+            FN</div>
+          <span class="font-bold text-sm">Finnable</span>
+          <span class="bg-purple-500 text-white font-black text-xs px-2.5 py-0.5 rounded-full">22.00%</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       SEARCHABLE / EXPANDABLE BANK GRID SECTION
+  ======================================================== -->
+  <section class="py-16 bg-gray-50 border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 tracking-tight">
+          Bank-Wise Interest Rate Comparison
+        </h2>
+        <div class="orange-accent-line"></div>
+        <p class="text-sm text-gray-600 mt-4">
+          Finwizz verifies your salaried profile and negotiates the lowest starting rates across our approved banking
+          network.
+        </p>
+      </div>
+
+      <!-- Quick Search Bar -->
+      <div class="max-w-md mx-auto mb-8">
+        <div class="relative">
+          <input type="text" id="bankSearchInput" onkeyup="filterBanks()"
+            placeholder="Search bank name (e.g. HDFC, Kotak, Axis)..."
+            class="w-full bg-white border border-gray-300 rounded-full py-3 pl-11 pr-4 text-sm focus:ring-2 focus:ring-brandOrange focus:border-brandOrange outline-none shadow-sm transition-all">
+          <svg class="w-4 h-4 text-gray-400 absolute left-4 top-3.5" fill="none" stroke="currentColor"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+        </div>
+      </div>
+
+      <!-- 19 Banks Grid -->
+      <div id="bankListGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+
+        <!-- 1 -->
+        <div
+          class="bank-card bg-white p-4 rounded-2xl border border-gray-200/80 shadow-sm flex items-center justify-between hover:border-brandOrange transition-all">
+          <div class="flex items-center gap-3">
+            <!-- Kotak Mahindra Bank Logo -->
+            <div class="w-10 h-10 rounded-xl bg-red-50 border border-red-100 flex items-center justify-center overflow-hidden p-1 flex-shrink-0">
+              <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                <rect width="60" height="60" rx="8" fill="#ED1C24"/>
+                <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="900" font-size="13" fill="white">KMB</text>
+              </svg>
+            </div>
+            <div>
+              <p class="font-bold text-sm text-gray-900 bank-name">Kotak Mahindra Bank</p>
+              <p class="text-[11px] text-gray-500">Tenure up to 72 mos</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="text-sm font-black text-emerald-600">9.95%</span>
+            <span class="block text-[10px] text-gray-400">p.a. onwards</span>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div
+          class="bank-card bg-white p-4 rounded-2xl border border-gray-200/80 shadow-sm flex items-center justify-between hover:border-brandOrange transition-all">
+          <div class="flex items-center gap-3">
+            <!-- HDFC Bank Logo -->
+            <div class="w-10 h-10 rounded-xl bg-[#004C8F] border border-blue-200 flex items-center justify-center overflow-hidden p-1 flex-shrink-0">
+              <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                <rect width="60" height="60" rx="8" fill="#004C8F"/>
+                <text x="50%" y="38%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="900" font-size="14" fill="white">HDFC</text>
+                <text x="50%" y="68%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="9" fill="#ED1C24">BANK</text>
+              </svg>
+            </div>
+            <div>
+              <p class="font-bold text-sm text-gray-900 bank-name">HDFC Bank Ltd.</p>
+              <p class="text-[11px] text-gray-500">Prime Corporate Rates</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="text-sm font-black text-emerald-600">9.99%</span>
+            <span class="block text-[10px] text-gray-400">p.a. onwards</span>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div
+          class="bank-card bg-white p-4 rounded-2xl border border-gray-200/80 shadow-sm flex items-center justify-between hover:border-brandOrange transition-all">
+          <div class="flex items-center gap-3">
+            <!-- Axis Bank Logo -->
+            <div class="w-10 h-10 rounded-xl bg-[#97144D] border border-rose-200 flex items-center justify-center overflow-hidden p-1 flex-shrink-0">
+              <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                <rect width="60" height="60" rx="8" fill="#97144D"/>
+                <text x="50%" y="40%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="900" font-size="15" fill="white">AXIS</text>
+                <text x="50%" y="68%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600" font-size="9" fill="#f9a8d4">BANK</text>
+              </svg>
+            </div>
+            <div>
+              <p class="font-bold text-sm text-gray-900 bank-name">Axis Bank Ltd.</p>
+              <p class="text-[11px] text-gray-500">Quick Approval</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="text-sm font-black text-emerald-600">9.99%</span>
+            <span class="block text-[10px] text-gray-400">p.a. onwards</span>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div
+          class="bank-card bg-white p-4 rounded-2xl border border-gray-200/80 shadow-sm flex items-center justify-between hover:border-brandOrange transition-all">
+          <div class="flex items-center gap-3">
+            <!-- ICICI Bank Logo -->
+            <div class="w-10 h-10 rounded-xl bg-[#F7891B] border border-amber-200 flex items-center justify-center overflow-hidden p-1 flex-shrink-0">
+              <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                <rect width="60" height="60" rx="8" fill="#F7891B"/>
+                <text x="50%" y="38%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="900" font-size="13" fill="white">ICICI</text>
+                <text x="50%" y="68%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="9" fill="white">BANK</text>
+              </svg>
+            </div>
+            <div>
+              <p class="font-bold text-sm text-gray-900 bank-name">ICICI Bank Ltd.</p>
+              <p class="text-[11px] text-gray-500">Pre-approved Offers</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="text-sm font-black text-emerald-600">9.99%</span>
+            <span class="block text-[10px] text-gray-400">p.a. onwards</span>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div
+          class="bank-card bg-white p-4 rounded-2xl border border-gray-200/80 shadow-sm flex items-center justify-between hover:border-brandOrange transition-all">
+          <div class="flex items-center gap-3">
+            <!-- IndusInd Bank Logo -->
+            <div class="w-10 h-10 rounded-xl bg-[#1D3D7C] border border-blue-200 flex items-center justify-center overflow-hidden p-1 flex-shrink-0">
+              <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                <rect width="60" height="60" rx="8" fill="#1D3D7C"/>
+                <!-- Stylised 'I' peacock motif suggestion -->
+                <circle cx="30" cy="22" r="8" fill="#E8B84B"/>
+                <text x="50%" y="68%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="900" font-size="8" fill="white">IndusInd</text>
+              </svg>
+            </div>
+            <div>
+              <p class="font-bold text-sm text-gray-900 bank-name">IndusInd Bank</p>
+              <p class="text-[11px] text-gray-500">Flexible Repayment</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="text-sm font-black text-emerald-600">9.99%</span>
+            <span class="block text-[10px] text-gray-400">p.a. onwards</span>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div
+          class="bank-card bg-white p-4 rounded-2xl border border-gray-200/80 shadow-sm flex items-center justify-between hover:border-brandOrange transition-all">
+          <div class="flex items-center gap-3">
+            <!-- IDFC FIRST Bank Logo -->
+            <div class="w-10 h-10 rounded-xl bg-[#C8102E] border border-red-200 flex items-center justify-center overflow-hidden p-1 flex-shrink-0">
+              <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                <rect width="60" height="60" rx="8" fill="#C8102E"/>
+                <text x="50%" y="36%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="900" font-size="13" fill="white">IDFC</text>
+                <text x="50%" y="65%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="9" fill="#fca5a5">FIRST</text>
+              </svg>
+            </div>
+            <div>
+              <p class="font-bold text-sm text-gray-900 bank-name">IDFC FIRST Bank</p>
+              <p class="text-[11px] text-gray-500">Zero Foreclosure Opt</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="text-sm font-black text-emerald-600">9.99%</span>
+            <span class="block text-[10px] text-gray-400">p.a. onwards</span>
+          </div>
+        </div>
+
+        <!-- 7 -->
+        <div
+          class="bank-card bg-white p-4 rounded-2xl border border-gray-200/80 shadow-sm flex items-center justify-between hover:border-brandOrange transition-all">
+          <div class="flex items-center gap-3">
+            <!-- Bandhan Bank Logo -->
+            <div class="w-10 h-10 rounded-xl bg-[#E31E24] border border-red-200 flex items-center justify-center overflow-hidden p-1 flex-shrink-0">
+              <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                <rect width="60" height="60" rx="8" fill="#E31E24"/>
+                <!-- Stylised leaf/knot motif -->
+                <ellipse cx="22" cy="30" rx="10" ry="6" fill="white" opacity="0.9" transform="rotate(-30 22 30)"/>
+                <ellipse cx="38" cy="30" rx="10" ry="6" fill="white" opacity="0.9" transform="rotate(30 38 30)"/>
+                <circle cx="30" cy="30" r="4" fill="#E31E24"/>
+                <text x="50%" y="82%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="800" font-size="7.5" fill="white">BANDHAN</text>
+              </svg>
+            </div>
+            <div>
+              <p class="font-bold text-sm text-gray-900 bank-name">Bandhan Bank</p>
+              <p class="text-[11px] text-gray-500">Fast Verification</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="text-sm font-black text-emerald-600">9.99%</span>
+            <span class="block text-[10px] text-gray-400">p.a. onwards</span>
+          </div>
+        </div>
+
+        <!-- 8 -->
+        <div
+          class="bank-card bg-white p-4 rounded-2xl border border-gray-200/80 shadow-sm flex items-center justify-between hover:border-brandOrange transition-all">
+          <div class="flex items-center gap-3">
+            <!-- South Indian Bank Logo -->
+            <div class="w-10 h-10 rounded-xl bg-[#0C3B6E] border border-blue-200 flex items-center justify-center overflow-hidden p-1 flex-shrink-0">
+              <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                <rect width="60" height="60" rx="8" fill="#0C3B6E"/>
+                <text x="50%" y="36%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="900" font-size="11" fill="#F7C948">SIB</text>
+                <text x="50%" y="62%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600" font-size="6.5" fill="white">South Indian</text>
+                <text x="50%" y="78%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600" font-size="6.5" fill="white">Bank</text>
+              </svg>
+            </div>
+            <div>
+              <p class="font-bold text-sm text-gray-900 bank-name">South Indian Bank</p>
+              <p class="text-[11px] text-gray-500">Simplified Terms</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="text-sm font-black text-emerald-600">9.99%</span>
+            <span class="block text-[10px] text-gray-400">p.a. onwards</span>
+          </div>
+        </div>
+
+        <!-- 9 -->
+        <div
+          class="bank-card bg-white p-4 rounded-2xl border border-gray-200/80 shadow-sm flex items-center justify-between hover:border-brandOrange transition-all">
+          <div class="flex items-center gap-3">
+            <!-- Bajaj Finance Logo -->
+            <div class="w-10 h-10 rounded-xl bg-[#003399] border border-blue-200 flex items-center justify-center overflow-hidden p-1 flex-shrink-0">
+              <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                <rect width="60" height="60" rx="8" fill="#003399"/>
+                <!-- Bajaj chevron motif -->
+                <polygon points="15,38 30,20 45,38 38,38 30,26 22,38" fill="#E8B84B"/>
+                <text x="50%" y="76%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="800" font-size="7" fill="white">BAJAJ</text>
+              </svg>
+            </div>
+            <div>
+              <p class="font-bold text-sm text-gray-900 bank-name">Bajaj Finance</p>
+              <p class="text-[11px] text-gray-500">Instant Digital Sanction</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="text-sm font-black text-emerald-600">10.00%</span>
+            <span class="block text-[10px] text-gray-400">p.a. onwards</span>
+          </div>
+        </div>
+
+        <!-- 10 -->
+        <div
+          class="bank-card bg-white p-4 rounded-2xl border border-gray-200/80 shadow-sm flex items-center justify-between hover:border-brandOrange transition-all">
+          <div class="flex items-center gap-3">
+            <!-- Yes Bank Logo -->
+            <div class="w-10 h-10 rounded-xl bg-[#003087] border border-blue-200 flex items-center justify-center overflow-hidden p-1 flex-shrink-0">
+              <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                <rect width="60" height="60" rx="8" fill="#003087"/>
+                <text x="50%" y="40%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="900" font-size="17" fill="white">YES</text>
+                <text x="50%" y="68%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600" font-size="8" fill="#93c5fd">BANK</text>
+              </svg>
+            </div>
+            <div>
+              <p class="font-bold text-sm text-gray-900 bank-name">Yes Bank Ltd.</p>
+              <p class="text-[11px] text-gray-500">Broad Salaried Norms</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="text-sm font-black text-orange-600">10.85%</span>
+            <span class="block text-[10px] text-gray-400">p.a. onwards</span>
+          </div>
+        </div>
+
+        <!-- 11 -->
+        <div
+          class="bank-card bg-white p-4 rounded-2xl border border-gray-200/80 shadow-sm flex items-center justify-between hover:border-brandOrange transition-all">
+          <div class="flex items-center gap-3">
+            <!-- Piramal Finance Logo -->
+            <div class="w-10 h-10 rounded-xl bg-[#1A1A2E] border border-indigo-200 flex items-center justify-center overflow-hidden p-1 flex-shrink-0">
+              <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                <rect width="60" height="60" rx="8" fill="#1A1A2E"/>
+                <!-- Stylised P initial -->
+                <rect x="18" y="14" width="6" height="32" rx="2" fill="#E0A030"/>
+                <rect x="18" y="14" width="18" height="6" rx="2" fill="#E0A030"/>
+                <rect x="18" y="27" width="18" height="6" rx="2" fill="#E0A030"/>
+                <path d="M36 20 Q44 20 44 30 Q44 33 36 33" fill="none" stroke="#E0A030" stroke-width="6"/>
+                <text x="50%" y="82%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="800" font-size="7" fill="white">PIRAMAL</text>
+              </svg>
+            </div>
+            <div>
+              <p class="font-bold text-sm text-gray-900 bank-name">Piramal Finance</p>
+              <p class="text-[11px] text-gray-500">Multi-Tenure</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="text-sm font-black text-orange-600">10.99%</span>
+            <span class="block text-[10px] text-gray-400">p.a. onwards</span>
+          </div>
+        </div>
+
+        <!-- 12 -->
+        <div
+          class="bank-card bg-white p-4 rounded-2xl border border-gray-200/80 shadow-sm flex items-center justify-between hover:border-brandOrange transition-all">
+          <div class="flex items-center gap-3">
+            <!-- Tata Capital Logo -->
+            <div class="w-10 h-10 rounded-xl bg-[#0A2240] border border-cyan-200 flex items-center justify-center overflow-hidden p-1 flex-shrink-0">
+              <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                <rect width="60" height="60" rx="8" fill="#0A2240"/>
+                <!-- Tata wordmark simplified -->
+                <text x="50%" y="36%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="900" font-size="13" fill="white">TATA</text>
+                <text x="50%" y="62%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600" font-size="8.5" fill="#5DADE2">CAPITAL</text>
+              </svg>
+            </div>
+            <div>
+              <p class="font-bold text-sm text-gray-900 bank-name">Tata Capital</p>
+              <p class="text-[11px] text-gray-500">Quick Processing</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="text-sm font-black text-orange-600">10.99%</span>
+            <span class="block text-[10px] text-gray-400">p.a. onwards</span>
+          </div>
+        </div>
+
+        <!-- 13 -->
+        <div
+          class="bank-card bg-white p-4 rounded-2xl border border-gray-200/80 shadow-sm flex items-center justify-between hover:border-brandOrange transition-all">
+          <div class="flex items-center gap-3">
+            <!-- Aditya Birla Finance Logo -->
+            <div class="w-10 h-10 rounded-xl bg-[#C8102E] border border-rose-200 flex items-center justify-center overflow-hidden p-1 flex-shrink-0">
+              <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                <rect width="60" height="60" rx="8" fill="#C8102E"/>
+                <!-- ABF sun-like motif -->
+                <circle cx="30" cy="24" r="9" fill="white" opacity="0.95"/>
+                <circle cx="30" cy="24" r="5" fill="#C8102E"/>
+                <text x="50%" y="74%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="800" font-size="7" fill="white">AB CAPITAL</text>
+              </svg>
+            </div>
+            <div>
+              <p class="font-bold text-sm text-gray-900 bank-name">Aditya Birla Finance</p>
+              <p class="text-[11px] text-gray-500">Digital Verification</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="text-sm font-black text-orange-600">11.99%</span>
+            <span class="block text-[10px] text-gray-400">p.a. onwards</span>
+          </div>
+        </div>
+
+        <!-- 14 -->
+        <div
+          class="bank-card bg-white p-4 rounded-2xl border border-gray-200/80 shadow-sm flex items-center justify-between hover:border-brandOrange transition-all">
+          <div class="flex items-center gap-3">
+            <!-- FatakPay Logo -->
+            <div class="w-10 h-10 rounded-xl bg-[#FF4F00] border border-orange-200 flex items-center justify-center overflow-hidden p-1 flex-shrink-0">
+              <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                <rect width="60" height="60" rx="8" fill="#FF4F00"/>
+                <!-- Lightning bolt motif -->
+                <polygon points="35,10 22,32 30,32 25,50 38,28 30,28" fill="white"/>
+                <text x="50%" y="84%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="800" font-size="7" fill="white">FATAK</text>
+              </svg>
+            </div>
+            <div>
+              <p class="font-bold text-sm text-gray-900 bank-name">FatakPay</p>
+              <p class="text-[11px] text-gray-500">Instant Liquidity</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="text-sm font-black text-orange-600">13.00%</span>
+            <span class="block text-[10px] text-gray-400">p.a. onwards</span>
+          </div>
+        </div>
+
+        <!-- 15 -->
+        <div
+          class="bank-card bg-white p-4 rounded-2xl border border-gray-200/80 shadow-sm flex items-center justify-between hover:border-brandOrange transition-all">
+          <div class="flex items-center gap-3">
+            <!-- InCred Finance Logo -->
+            <div class="w-10 h-10 rounded-xl bg-[#F05A28] border border-orange-200 flex items-center justify-center overflow-hidden p-1 flex-shrink-0">
+              <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                <rect width="60" height="60" rx="8" fill="#F05A28"/>
+                <text x="50%" y="38%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="900" font-size="11" fill="white">InCred</text>
+                <text x="50%" y="66%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600" font-size="8" fill="white">Finance</text>
+              </svg>
+            </div>
+            <div>
+              <p class="font-bold text-sm text-gray-900 bank-name">InCred Finance</p>
+              <p class="text-[11px] text-gray-500">Flexible Evaluation</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="text-sm font-black text-orange-600">13.99%</span>
+            <span class="block text-[10px] text-gray-400">p.a. onwards</span>
+          </div>
+        </div>
+
+        <!-- 16 -->
+        <div
+          class="bank-card bg-white p-4 rounded-2xl border border-gray-200/80 shadow-sm flex items-center justify-between hover:border-brandOrange transition-all">
+          <div class="flex items-center gap-3">
+            <!-- Axis Finance Logo -->
+            <div class="w-10 h-10 rounded-xl bg-[#97144D] border border-rose-200 flex items-center justify-center overflow-hidden p-1 flex-shrink-0">
+              <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                <rect width="60" height="60" rx="8" fill="#97144D"/>
+                <text x="50%" y="36%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="900" font-size="13" fill="white">AXIS</text>
+                <text x="50%" y="64%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600" font-size="8" fill="#f9a8d4">FINANCE</text>
+              </svg>
+            </div>
+            <div>
+              <p class="font-bold text-sm text-gray-900 bank-name">Axis Finance</p>
+              <p class="text-[11px] text-gray-500">Tailored Solutions</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="text-sm font-black text-gray-800">14.00%</span>
+            <span class="block text-[10px] text-gray-400">p.a. onwards</span>
+          </div>
+        </div>
+
+        <!-- 17 -->
+        <div
+          class="bank-card bg-white p-4 rounded-2xl border border-gray-200/80 shadow-sm flex items-center justify-between hover:border-brandOrange transition-all">
+          <div class="flex items-center gap-3">
+            <!-- SMFG India Credit Logo -->
+            <div class="w-10 h-10 rounded-xl bg-[#003087] border border-blue-200 flex items-center justify-center overflow-hidden p-1 flex-shrink-0">
+              <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                <rect width="60" height="60" rx="8" fill="#003087"/>
+                <text x="50%" y="34%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="900" font-size="11" fill="white">SMFG</text>
+                <text x="50%" y="57%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600" font-size="6.5" fill="#93c5fd">INDIA</text>
+                <text x="50%" y="74%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600" font-size="6.5" fill="#93c5fd">CREDIT</text>
+              </svg>
+            </div>
+            <div>
+              <p class="font-bold text-sm text-gray-900 bank-name">SMFG India Credit</p>
+              <p class="text-[11px] text-gray-500">Fast Track</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="text-sm font-black text-gray-800">14.00%</span>
+            <span class="block text-[10px] text-gray-400">p.a. onwards</span>
+          </div>
+        </div>
+
+        <!-- 18 -->
+        <div
+          class="bank-card bg-white p-4 rounded-2xl border border-gray-200/80 shadow-sm flex items-center justify-between hover:border-brandOrange transition-all">
+          <div class="flex items-center gap-3">
+            <!-- Poonawalla Fincorp Logo -->
+            <div class="w-10 h-10 rounded-xl bg-[#1B2A6B] border border-indigo-200 flex items-center justify-center overflow-hidden p-1 flex-shrink-0">
+              <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                <rect width="60" height="60" rx="8" fill="#1B2A6B"/>
+                <!-- Abstract P initial with swoosh -->
+                <rect x="17" y="13" width="5" height="30" rx="2" fill="#FFD700"/>
+                <path d="M22 13 Q40 13 40 23 Q40 33 22 33" fill="none" stroke="#FFD700" stroke-width="5"/>
+                <text x="50%" y="82%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="800" font-size="6.5" fill="white">POONAWALLA</text>
+              </svg>
+            </div>
+            <div>
+              <p class="font-bold text-sm text-gray-900 bank-name">Poonawalla Fincorp</p>
+              <p class="text-[11px] text-gray-500">Digital Disbursal</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="text-sm font-black text-gray-800">14.00%</span>
+            <span class="block text-[10px] text-gray-400">p.a. onwards</span>
+          </div>
+        </div>
+
+        <!-- 19 -->
+        <div
+          class="bank-card bg-white p-4 rounded-2xl border border-gray-200/80 shadow-sm flex items-center justify-between hover:border-brandOrange transition-all">
+          <div class="flex items-center gap-3">
+            <!-- Finnable Logo -->
+            <div class="w-10 h-10 rounded-xl bg-[#5B2D8E] border border-purple-200 flex items-center justify-center overflow-hidden p-1 flex-shrink-0">
+              <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                <rect width="60" height="60" rx="8" fill="#5B2D8E"/>
+                <!-- Finnable stylised F with gradient bar -->
+                <rect x="16" y="13" width="5" height="34" rx="2" fill="white"/>
+                <rect x="16" y="13" width="22" height="5" rx="2" fill="white"/>
+                <rect x="16" y="27" width="18" height="5" rx="2" fill="#C084FC"/>
+                <text x="50%" y="82%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,sans-serif" font-weight="800" font-size="7" fill="white">FINNABLE</text>
+              </svg>
+            </div>
+            <div>
+              <p class="font-bold text-sm text-gray-900 bank-name">Finnable</p>
+              <p class="text-[11px] text-gray-500">Instant Advance</p>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="text-sm font-black text-purple-700">22.00%</span>
+            <span class="block text-[10px] text-gray-400">p.a. onwards</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mt-8 text-center">
+        <button onclick="openLeadModal()"
+          class="bg-brandNavy hover:bg-blue-900 text-white font-bold text-sm px-8 py-3.5 rounded-full shadow-md transition-all">
+          Apply Now & Get The Lowest Rate Available
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       FEATURES & BENEFITS SECTION (InCred Card Grid Style)
+  ======================================================== -->
+  <section id="features" class="py-16 sm:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">
+          Features & Benefits
+        </h2>
+        <div class="orange-accent-line"></div>
+        <p class="text-base text-gray-600 mt-4">
+          Experience a hassle-free personal loan journey tailored specifically for working corporate professionals.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Card 1 -->
+        <div class="bg-brandCardBg p-8 rounded-3xl border border-gray-100 hover:shadow-custom transition-all group">
+          <div
+            class="w-12 h-12 rounded-2xl bg-orange-100/80 text-brandOrange flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+            💰
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Loan from ₹1 Lakh to ₹1 Crore</h3>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            Get personalized loan amounts starting from ₹1 Lakh up to ₹1 Crore to meet any planned or unexpected expense
+            without end-use restrictions.
+          </p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-brandCardBg p-8 rounded-3xl border border-gray-100 hover:shadow-custom transition-all group">
+          <div
+            class="w-12 h-12 rounded-2xl bg-blue-100/80 text-brandNavy flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+            ⚡
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Instant Approval in Minutes</h3>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            Our intelligent multi-bank matchmaking algorithm checks your profile in real-time, giving you fast-track
+            approvals from top lenders.
+          </p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-brandCardBg p-8 rounded-3xl border border-gray-100 hover:shadow-custom transition-all group">
+          <div
+            class="w-12 h-12 rounded-2xl bg-emerald-100/80 text-emerald-600 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+            🏦
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Direct Bank Disbursal</h3>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            100% transparent. The sanctioned loan amount is directly credited into your verified salary account with
+            zero middleman deductions.
+          </p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="bg-brandCardBg p-8 rounded-3xl border border-gray-100 hover:shadow-custom transition-all group">
+          <div
+            class="w-12 h-12 rounded-2xl bg-orange-100/80 text-brandOrange flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+            🎉
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">100% Free Service</h3>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            Finwizz does not charge any consulting fees, file charges, or advance commission from borrowers. Our
+            services are completely free.
+          </p>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="bg-brandCardBg p-8 rounded-3xl border border-gray-100 hover:shadow-custom transition-all group">
+          <div
+            class="w-12 h-12 rounded-2xl bg-blue-100/80 text-brandNavy flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+            🛡️
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">No Collateral Required</h3>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            All personal loans arranged are 100% collateral-free and unsecured, approved purely based on your income,
+            company category, and CIBIL track.
+          </p>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="bg-brandCardBg p-8 rounded-3xl border border-gray-100 hover:shadow-custom transition-all group">
+          <div
+            class="w-12 h-12 rounded-2xl bg-purple-100/80 text-purple-600 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+            📅
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Flexible Tenure up to 72 Months</h3>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            Choose comfortable repayment terms ranging from 12 months up to 72 months to ensure your monthly EMIs fit
+            your regular household budget.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Section CTA Banner (InCred Style) -->
+      <div
+        class="mt-14 bg-gradient-to-r from-orange-50 via-white to-blue-50 border border-orange-200/80 rounded-3xl p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-sm">
+        <div>
+          <h4 class="text-xl sm:text-2xl font-black text-gray-900">Start your loan application now</h4>
+          <p class="text-sm text-gray-600 mt-1">Get fast-track disbursal directly into your salary account.</p>
+        </div>
+        <button onclick="openLeadModal()"
+          class="bg-brandOrange hover:bg-brandOrangeHover text-white font-extrabold text-sm sm:text-base px-8 py-3.5 rounded-full shadow-cta transition-all flex-shrink-0">
+          Apply Now →
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       ELIGIBILITY CRITERIA & DOCUMENTATION (2-Box Comparison)
+  ======================================================== -->
+  <section id="eligibility" class="py-16 sm:py-24 bg-gray-50 border-y border-gray-200/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">
+          Eligibility Criteria & Documentation
+        </h2>
+        <div class="orange-accent-line"></div>
+        <p class="text-base text-gray-600 mt-4">
+          Transparent requirements designed for verified corporate and salaried employees.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+
+        <!-- Box 1: Eligibility Criteria -->
+        <div class="bg-white p-8 sm:p-10 rounded-3xl border border-gray-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-3 mb-6">
+              <div
+                class="w-12 h-12 rounded-2xl bg-blue-50 text-brandNavy flex items-center justify-center font-bold text-xl">
+                📋
+              </div>
+              <div>
+                <h3 class="text-xl font-bold text-brandNavy">Personal Loan Eligibility</h3>
+                <p class="text-xs text-gray-500">Criteria for fast pre-qualification</p>
+              </div>
+            </div>
+
+            <ul class="space-y-4 text-sm text-gray-700">
+              <li class="flex items-start gap-3 p-3 bg-gray-50 rounded-xl">
+                <span class="text-emerald-500 font-extrabold text-base">✓</span>
+                <div>
+                  <strong class="text-gray-900">Minimum Monthly Salary:</strong> Net in-hand salary of <strong>₹20,000+
+                    per month</strong> credited into bank account.
+                </div>
+              </li>
+              <li class="flex items-start gap-3 p-3 bg-gray-50 rounded-xl">
+                <span class="text-emerald-500 font-extrabold text-base">✓</span>
+                <div>
+                  <strong class="text-gray-900">Credit Score Requirement:</strong> Mandatory <strong>CIBIL Score of
+                    700+</strong>.
+                </div>
+              </li>
+              <li class="flex items-start gap-3 p-3 bg-gray-50 rounded-xl">
+                <span class="text-emerald-500 font-extrabold text-base">✓</span>
+                <div>
+                  <strong class="text-gray-900">Repayment Health:</strong> <strong>Zero cheque bounces</strong> and zero
+                  overdue accounts in the last 12 months.
+                </div>
+              </li>
+              <li class="flex items-start gap-3 p-3 bg-gray-50 rounded-xl">
+                <span class="text-emerald-500 font-extrabold text-base">✓</span>
+                <div>
+                  <strong class="text-gray-900">Eligible Employer Categories:</strong> Salaried staff in Pvt Ltd, Public
+                  Ltd, MNC, LLP, Partnership Firms, or Govt/PSU entities.
+                </div>
+              </li>
+              <li class="flex items-start gap-3 p-3 bg-gray-50 rounded-xl">
+                <span class="text-emerald-500 font-extrabold text-base">✓</span>
+                <div>
+                  <strong class="text-gray-900">Service Locations:</strong> Bengaluru, Hyderabad, Chennai, Madurai,
+                  Mumbai, Delhi NCR, Pune, Gujarat, and other major cities.
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <button onclick="openLeadModal()"
+            class="mt-8 w-full bg-brandNavy hover:bg-blue-900 text-white font-bold py-3.5 rounded-full transition-all text-sm">
+            Check Your Eligibility Now
+          </button>
+        </div>
+
+        <!-- Box 2: Documents Required -->
+        <div class="bg-white p-8 sm:p-10 rounded-3xl border border-gray-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-3 mb-6">
+              <div
+                class="w-12 h-12 rounded-2xl bg-orange-50 text-brandOrange flex items-center justify-center font-bold text-xl">
+                📁
+              </div>
+              <div>
+                <h3 class="text-xl font-bold text-brandNavy">Documents Required</h3>
+                <p class="text-xs text-gray-500">100% paperless digital submission</p>
+              </div>
+            </div>
+
+            <ul class="space-y-4 text-sm text-gray-700">
+              <li class="flex items-start gap-3 p-3 bg-gray-50 rounded-xl">
+                <span class="text-brandOrange font-extrabold text-base">•</span>
+                <div>
+                  <strong class="text-gray-900">Identity Proof:</strong> Valid <strong>PAN Card</strong> &
+                  <strong>Aadhaar Card</strong> (Linked with mobile for paperless e-sign).
+                </div>
+              </li>
+              <li class="flex items-start gap-3 p-3 bg-gray-50 rounded-xl">
+                <span class="text-brandOrange font-extrabold text-base">•</span>
+                <div>
+                  <strong class="text-gray-900">Income Proof:</strong> Recent <strong>3 Months Payslips / Salary
+                    Slips</strong> showing all regular allowances and deductions.
+                </div>
+              </li>
+              <li class="flex items-start gap-3 p-3 bg-gray-50 rounded-xl">
+                <span class="text-brandOrange font-extrabold text-base">•</span>
+                <div>
+                  <strong class="text-gray-900">Bank Statement:</strong> Recent <strong>6 Months Salary Bank Account
+                    Statement</strong> till date (Original e-PDF format).
+                </div>
+              </li>
+              <li class="flex items-start gap-3 p-3 bg-gray-50 rounded-xl">
+                <span class="text-brandOrange font-extrabold text-base">•</span>
+                <div>
+                  <strong class="text-gray-900">Address Proof:</strong> Rental Agreement, Electricity Bill, Gas Bill,
+                  Driving License, or Voter ID.
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mt-8 bg-orange-50/80 border border-orange-200 p-4 rounded-2xl text-xs text-orange-950">
+            <strong>Note:</strong> Having clean original PDF statements and verified payslips ensures sanction and
+            disbursal within 24 to 48 working hours.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       STEPS TO APPLY FOR PERSONAL LOAN (Numbered 1-5)
+  ======================================================== -->
+  <section id="process" class="py-16 sm:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">
+          Steps to Apply for Finwizz Personal Loan
+        </h2>
+        <div class="orange-accent-line"></div>
+        <p class="text-base text-gray-600 mt-4">
+          Simple 5-step digital journey from online application to bank disbursal.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
+
+        <!-- Step 1 -->
+        <div
+          class="bg-brandCardBg p-6 rounded-2xl border border-gray-100 relative group hover:border-brandOrange transition-all">
+          <div class="text-4xl font-black text-blue-200 mb-3 group-hover:text-brandOrange transition-colors">01</div>
+          <h4 class="font-bold text-gray-900 text-base mb-2">Apply Online</h4>
+          <p class="text-xs text-gray-600 leading-relaxed">
+            Click "Apply Now" and share your loan requirement, income, and city.
+          </p>
+        </div>
+
+        <!-- Step 2 -->
+        <div
+          class="bg-brandCardBg p-6 rounded-2xl border border-gray-100 relative group hover:border-brandOrange transition-all">
+          <div class="text-4xl font-black text-blue-200 mb-3 group-hover:text-brandOrange transition-colors">02</div>
+          <h4 class="font-bold text-gray-900 text-base mb-2">Profile Check</h4>
+          <p class="text-xs text-gray-600 leading-relaxed">
+            Our system confirms your 700+ CIBIL score and ₹20k+ net salary.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div
+          class="bg-brandCardBg p-6 rounded-2xl border border-gray-100 relative group hover:border-brandOrange transition-all">
+          <div class="text-4xl font-black text-blue-200 mb-3 group-hover:text-brandOrange transition-colors">03</div>
+          <h4 class="font-bold text-gray-900 text-base mb-2">Compare Rates</h4>
+          <p class="text-xs text-gray-600 leading-relaxed">
+            Finwizz finds the best matching rate starting from 9.95% across 19+ banks.
+          </p>
+        </div>
+
+        <!-- Step 4 -->
+        <div
+          class="bg-brandCardBg p-6 rounded-2xl border border-gray-100 relative group hover:border-brandOrange transition-all">
+          <div class="text-4xl font-black text-blue-200 mb-3 group-hover:text-brandOrange transition-colors">04</div>
+          <h4 class="font-bold text-gray-900 text-base mb-2">Digital KYC</h4>
+          <p class="text-xs text-gray-600 leading-relaxed">
+            Submit soft copies of your PAN, Aadhaar, payslips, and 6M bank statement.
+          </p>
+        </div>
+
+        <!-- Step 5 -->
+        <div
+          class="bg-brandCardBg p-6 rounded-2xl border border-gray-100 relative group hover:border-brandOrange transition-all">
+          <div class="text-4xl font-black text-blue-200 mb-3 group-hover:text-brandOrange transition-colors">05</div>
+          <h4 class="font-bold text-gray-900 text-base mb-2">Direct Disbursal</h4>
+          <p class="text-xs text-gray-600 leading-relaxed">
+            Bank directly credits the funds into your salary account in 24-48 hours.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="mt-12 text-center">
+        <button onclick="openLeadModal()"
+          class="bg-brandOrange hover:bg-brandOrangeHover text-white font-extrabold text-sm px-8 py-3.5 rounded-full shadow-cta transition-all">
+          Start Your Loan Application Today →
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       CUSTOMER SUCCESS STORIES (Testimonials with Quotes)
+  ======================================================== -->
+  <section id="reviews" class="py-16 sm:py-24 bg-gray-50 border-t border-gray-200/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">
+          Customer Success Stories
+        </h2>
+        <div class="orange-accent-line"></div>
+        <p class="text-base text-gray-600 mt-4">
+          Trusted by over 1,000+ salaried borrowers across major Indian metro cities.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <!-- Review 1: Ravindra Naik -->
+        <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="text-brandOrange font-black text-4xl mb-4 leading-none">“</div>
+            <p class="text-sm text-gray-700 leading-relaxed italic mb-6">
+              "Needed ₹15 Lakhs for home renovation. Finwizz secured 9.99% through HDFC Bank without requiring me to
+              visit any branch. The entire verification was completed in 36 hours. Transparent, fast, and completely
+              worry-free."
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-gray-100">
+            <div
+              class="w-10 h-10 rounded-full bg-blue-100 text-brandNavy font-bold flex items-center justify-center text-sm">
+              RN
+            </div>
+            <div>
+              <p class="font-bold text-sm text-gray-900">Ravindra Naik</p>
+              <p class="text-xs text-gray-500">IT Consultant, Bengaluru</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2: Darshini Suresh -->
+        <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="text-brandOrange font-black text-4xl mb-4 leading-none">“</div>
+            <p class="text-sm text-gray-700 leading-relaxed italic mb-6">
+              "Finwizz's team was supportive, patient, and clear at every step. Based on my corporate MNC profile and
+              740 CIBIL score, I received pre-approved ₹8 Lakhs sanction at a 72-month tenure with very low EMI."
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-gray-100">
+            <div
+              class="w-10 h-10 rounded-full bg-orange-100 text-brandOrange font-bold flex items-center justify-center text-sm">
+              DS
+            </div>
+            <div>
+              <p class="font-bold text-sm text-gray-900">Darshini Suresh Ramkisan</p>
+              <p class="text-xs text-gray-500">Senior Analyst, Chennai</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3: Shubham Suresh -->
+        <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="text-brandOrange font-black text-4xl mb-4 leading-none">“</div>
+            <p class="text-sm text-gray-700 leading-relaxed italic mb-6">
+              "My personal loan of ₹6.5 Lakhs was processed quickly with regular updates. Best part was that Finwizz
+              took ₹0 fees from me, and the entire approved fund was credited directly into my salary account in 48
+              hours."
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-gray-100">
+            <div
+              class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-700 font-bold flex items-center justify-center text-sm">
+              SP
+            </div>
+            <div>
+              <p class="font-bold text-sm text-gray-900">Shubham Suresh Padwal</p>
+              <p class="text-xs text-gray-500">Operations Lead, Pune</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       FREQUENTLY ASKED QUESTIONS (FAQ Accordion)
+  ======================================================== -->
+  <section id="faqs" class="py-16 sm:py-24 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">
+          Frequently Asked Questions
+        </h2>
+        <div class="orange-accent-line"></div>
+        <p class="text-base text-gray-600 mt-4">
+          Quick clarity on loan processing, eligibility rules, and disbursals.
+        </p>
+      </div>
+
+      <div class="space-y-4">
+
+        <!-- FAQ 1 -->
+        <div class="border border-gray-200 rounded-2xl overflow-hidden">
+          <button onclick="toggleFaq(1)"
+            class="w-full flex items-center justify-between p-5 text-left bg-gray-50/70 hover:bg-gray-100 font-bold text-gray-900 text-sm sm:text-base transition-colors">
+            <span>Does Finwizz charge any consulting fee or commission from applicants?</span>
+            <span id="faqIcon-1" class="text-xl text-brandNavy font-extrabold">+</span>
+          </button>
+          <div id="faqContent-1"
+            class="hidden p-5 text-sm text-gray-600 bg-white border-t border-gray-100 leading-relaxed">
+            <strong>No, absolutely not. Our service is 100% free for applicants.</strong> Finwizz does not take any file
+            charge, consultation fee, or commission from borrowers. We are an official loan facilitation partner.
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="border border-gray-200 rounded-2xl overflow-hidden">
+          <button onclick="toggleFaq(2)"
+            class="w-full flex items-center justify-between p-5 text-left bg-gray-50/70 hover:bg-gray-100 font-bold text-gray-900 text-sm sm:text-base transition-colors">
+            <span>Who disburses the approved loan amount into my account?</span>
+            <span id="faqIcon-2" class="text-xl text-brandNavy font-extrabold">+</span>
+          </button>
+          <div id="faqContent-2"
+            class="hidden p-5 text-sm text-gray-600 bg-white border-t border-gray-100 leading-relaxed">
+            The sanctioned loan amount is directly transferred by the chosen RBI-registered partner Bank or NBFC (such
+            as HDFC, ICICI, Kotak, Axis, Tata Capital, etc.) into your verified salary bank account.
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="border border-gray-200 rounded-2xl overflow-hidden">
+          <button onclick="toggleFaq(3)"
+            class="w-full flex items-center justify-between p-5 text-left bg-gray-50/70 hover:bg-gray-100 font-bold text-gray-900 text-sm sm:text-base transition-colors">
+            <span>Can I apply if my CIBIL score is below 700?</span>
+            <span id="faqIcon-3" class="text-xl text-brandNavy font-extrabold">+</span>
+          </button>
+          <div id="faqContent-3"
+            class="hidden p-5 text-sm text-gray-600 bg-white border-t border-gray-100 leading-relaxed">
+            No. This special fast-track personal loan program starting at 9.95% ROI is strictly reserved for salaried
+            applicants with a <strong>CIBIL score of 700+</strong> and zero cheque bounce or overdue records in the last
+            12 months.
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="border border-gray-200 rounded-2xl overflow-hidden">
+          <button onclick="toggleFaq(4)"
+            class="w-full flex items-center justify-between p-5 text-left bg-gray-50/70 hover:bg-gray-100 font-bold text-gray-900 text-sm sm:text-base transition-colors">
+            <span>What is the minimum salary required to qualify?</span>
+            <span id="faqIcon-4" class="text-xl text-brandNavy font-extrabold">+</span>
+          </button>
+          <div id="faqContent-4"
+            class="hidden p-5 text-sm text-gray-600 bg-white border-t border-gray-100 leading-relaxed">
+            Applicants must have a net take-home salary of at least <strong>₹20,000 per month</strong> credited into
+            their corporate bank account from an eligible Private Ltd, Public Ltd, MNC, LLP, or Government department.
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="border border-gray-200 rounded-2xl overflow-hidden">
+          <button onclick="toggleFaq(5)"
+            class="w-full flex items-center justify-between p-5 text-left bg-gray-50/70 hover:bg-gray-100 font-bold text-gray-900 text-sm sm:text-base transition-colors">
+            <span>How fast can I receive the loan funds?</span>
+            <span id="faqIcon-5" class="text-xl text-brandNavy font-extrabold">+</span>
+          </button>
+          <div id="faqContent-5"
+            class="hidden p-5 text-sm text-gray-600 bg-white border-t border-gray-100 leading-relaxed">
+            Once your soft copies (PAN, Aadhaar, 3 months payslips, and 6 months bank statement) are submitted, bank
+            verification typically takes 24 to 48 working hours for direct disbursal.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       FOOTER & COMPLIANCE (Google Ads Compliant)
+  ======================================================== -->
+  <footer class="bg-brandDarkNavy text-white pt-16 pb-24 sm:pb-16 border-t border-blue-900/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-blue-900/60">
+
+        <!-- Col 1: Brand & Bio -->
+        <div class="md:col-span-5 space-y-4">
+          <div class="flex items-baseline font-black tracking-tight text-3xl italic">
+            <span class="text-white">FIN</span>
+            <span class="text-brandElectricBlue">WIZZ</span>
+          </div>
+          <p class="text-xs font-bold tracking-[0.2em] text-blue-300 uppercase">LOANS SIMPLIFIED</p>
+          <p class="text-xs text-blue-200/80 leading-relaxed max-w-sm">
+            Finwizz Financial Services Pvt. Ltd. is a digital loan aggregator connecting qualified salaried borrowers
+            with top RBI-registered banking institutions and NBFCs across India since 2005.
+          </p>
+          <div class="text-xs text-blue-200/90 space-y-1 pt-2">
+            <p><strong>CIN/Registration:</strong> Certified Financial Aggregator (Est. 2005)</p>
+            <p><strong>Assisted Borrowers:</strong> 1,000+ Corporate Professionals</p>
+          </div>
+        </div>
+
+        <!-- Col 2: Official Support Details -->
+        <div class="md:col-span-4 space-y-3">
+          <h4 class="text-sm font-bold text-white uppercase tracking-wider">Official Helpline Support</h4>
+          <div class="space-y-2 text-xs text-blue-200">
+            <p class="flex items-center gap-2">
+              <span class="text-brandOrange font-bold">📞</span>
+              <span>+91 8861418090 / +91 81481 05058</span>
+            </p>
+            <p class="flex items-center gap-2">
+              <span class="text-brandOrange font-bold">✉️</span>
+              <span>salesfinwizz2026@gmail.com</span>
+            </p>
+            <div class="flex items-start gap-2 pt-1">
+              <span class="text-brandOrange font-bold mt-0.5">📍</span>
+              <div class="leading-relaxed">
+                <span class="text-orange-400 font-bold uppercase tracking-wider text-[11px] block">Login Office:</span>
+                <span class="font-semibold text-white">Finwizz Financial Services Pvt Ltd</span><br>
+                <span>6th Cross, Lawrence & Mayo Building, 1st Floor, Malleshwara Ground, Opposite Malleshwaram Circle,
+                  Bangalore - 560003</span>
+              </div>
+            </div>
+            <p class="flex items-center gap-2 pt-1">
+              <span class="text-brandOrange font-bold">⏰</span>
+              <span>Support Hours: Mon - Sat (9:30 AM - 6:30 PM)</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Col 3: Quick Action -->
+        <div class="md:col-span-3 space-y-3">
+          <h4 class="text-sm font-bold text-white uppercase tracking-wider">Fast Apply</h4>
+          <p class="text-xs text-blue-200/80 leading-relaxed">
+            Check your pre-approved interest rates across 19+ banks with zero impact on CIBIL score.
+          </p>
+          <button onclick="openLeadModal()"
+            class="w-full bg-brandOrange hover:bg-brandOrangeHover text-white font-bold text-xs py-3 rounded-full shadow-cta transition-all text-center">
+            Check Eligibility Now →
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Statutory Google Ads & RBI Compliance Disclaimer -->
+      <div class="pt-8 text-[11px] text-blue-300/70 leading-relaxed space-y-3">
+        <p>
+          <strong>Disclaimer & Disclosure:</strong> Finwizz Financial Services Pvt. Ltd. operates as a technology and
+          corporate loan aggregator and facilitator. We do not represent ourselves as an RBI-regulated bank or direct
+          non-banking financial company (NBFC). Loan approval, sanction, processing fee, and annual percentage rates
+          (APR ranging from 9.95% to 24% p.a.) depend entirely on the applicant's credit score (CIBIL 700+), company
+          category, monthly salary, and lending partner terms. Repayment tenures range from 12 months to 72 months.
+          Finwizz does not collect any upfront fee, advance deposit, or advisory charges from applicants.
+        </p>
+
+        <!-- Legal Footer Nav Links -->
+        <div class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 pt-5 border-t border-blue-900/50">
+          <button onclick="openLegalModal('privacyModal')"
+            class="text-blue-300 hover:text-brandOrange text-xs font-semibold transition-colors underline-offset-2 hover:underline">
+            Privacy Policy
+          </button>
+          <span class="text-blue-700 hidden sm:inline">|</span>
+          <button onclick="openLegalModal('termsModal')"
+            class="text-blue-300 hover:text-brandOrange text-xs font-semibold transition-colors underline-offset-2 hover:underline">
+            Terms &amp; Conditions
+          </button>
+          <span class="text-blue-700 hidden sm:inline">|</span>
+          <button onclick="openLegalModal('disclaimerModal')"
+            class="text-blue-300 hover:text-brandOrange text-xs font-semibold transition-colors underline-offset-2 hover:underline">
+            Disclaimers &amp; Grievance Redressal
+          </button>
+        </div>
+
+        <p class="text-center text-blue-400 text-xs pt-3">
+          © 2026 Finwizz Financial Services Pvt. Ltd. All rights reserved.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ========================================================
+       LEGAL MODALS — Privacy Policy / Terms / Disclaimer
+  ======================================================== -->
+
+  <!-- Shared modal backdrop helper: openLegalModal / closeLegalModal defined in JS below -->
+
+  <!-- ── MODAL 1: Privacy Policy ── -->
+  <div id="privacyModal"
+    class="fixed inset-0 z-[60] hidden items-center justify-center p-4 overflow-y-auto"
+    style="background:rgba(5,15,40,0.82);backdrop-filter:blur(6px);"
+    onclick="handleLegalBackdrop(event,'privacyModal')">
+    <div class="relative bg-white w-full max-w-2xl rounded-3xl shadow-2xl my-6 overflow-hidden animate-in fade-in zoom-in-95 duration-200"
+      onclick="event.stopPropagation()">
+      <!-- Header -->
+      <div class="bg-gradient-to-r from-[#0d1b3e] to-[#1a3178] px-8 py-6 relative">
+        <span class="text-[10px] font-extrabold tracking-widest uppercase bg-orange-500/20 text-orange-300 px-2.5 py-0.5 rounded-full border border-orange-500/30">Legal Document</span>
+        <h2 class="text-xl font-black text-white mt-2">Privacy Policy</h2>
+        <p class="text-xs text-blue-200 mt-0.5">Effective Date: November 2026</p>
+        <button onclick="closeLegalModal('privacyModal')"
+          class="absolute top-4 right-4 text-white/70 hover:text-white bg-white/10 hover:bg-white/20 w-8 h-8 rounded-full flex items-center justify-center text-lg font-bold transition-colors">✕</button>
+      </div>
+      <!-- Body -->
+      <div class="p-7 sm:p-9 space-y-6 text-sm text-gray-700 leading-relaxed max-h-[70vh] overflow-y-auto">
+
+        <!-- Company -->
+        <div class="bg-blue-50 border border-blue-100 rounded-2xl p-4 text-xs text-blue-800 space-y-1">
+          <p><strong>Company:</strong> Finwizz Financial Services Pvt. Ltd.</p>
+          <p><strong>Registered Office:</strong> 6th Cross, Lawrence &amp; Mayo Building, 1st Floor, Malleshwara Ground, Opposite Malleshwaram Circle, Bangalore – 560003</p>
+        </div>
+
+        <!-- Introduction -->
+        <div>
+          <h3 class="font-black text-gray-900 text-base mb-2 flex items-center gap-2">
+            <span class="w-6 h-6 rounded-full bg-brandOrange/10 text-brandOrange flex items-center justify-center text-xs font-black">1</span>
+            Introduction
+          </h3>
+          <p>At Finwizz Financial Services Pvt. Ltd. ("Finwizz", "we", "our", or "us"), we value your trust and are committed to protecting your personal and financial data. This Privacy Policy outlines how we collect, use, share, and protect information when you visit our website or apply for financial products such as personal loans.</p>
+        </div>
+
+        <!-- Information We Collect -->
+        <div>
+          <h3 class="font-black text-gray-900 text-base mb-3 flex items-center gap-2">
+            <span class="w-6 h-6 rounded-full bg-brandOrange/10 text-brandOrange flex items-center justify-center text-xs font-black">2</span>
+            Information We Collect
+          </h3>
+          <div class="space-y-3">
+            <div class="bg-gray-50 rounded-xl p-4 border border-gray-100">
+              <p class="font-bold text-gray-800 mb-1">Personal Identification</p>
+              <p class="text-xs text-gray-600">Full name, date of birth, mobile number, email address, current residential address.</p>
+            </div>
+            <div class="bg-gray-50 rounded-xl p-4 border border-gray-100">
+              <p class="font-bold text-gray-800 mb-1">KYC &amp; Financial Details</p>
+              <p class="text-xs text-gray-600">PAN card, Aadhaar details as per regulatory frameworks, employment details, monthly income, bank statements.</p>
+            </div>
+            <div class="bg-gray-50 rounded-xl p-4 border border-gray-100">
+              <p class="font-bold text-gray-800 mb-1">Technical Data</p>
+              <p class="text-xs text-gray-600">IP address, browser type, device information, cookies.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- How We Use -->
+        <div>
+          <h3 class="font-black text-gray-900 text-base mb-3 flex items-center gap-2">
+            <span class="w-6 h-6 rounded-full bg-brandOrange/10 text-brandOrange flex items-center justify-center text-xs font-black">3</span>
+            How We Use Your Information
+          </h3>
+          <ul class="space-y-2 text-sm">
+            <li class="flex items-start gap-2"><span class="text-brandOrange mt-0.5 font-black text-base leading-none">›</span><span>Evaluate loan eligibility against lender criteria.</span></li>
+            <li class="flex items-start gap-2"><span class="text-brandOrange mt-0.5 font-black text-base leading-none">›</span><span>Facilitate loan matching, pre-qualification, and documentation assistance.</span></li>
+            <li class="flex items-start gap-2"><span class="text-brandOrange mt-0.5 font-black text-base leading-none">›</span><span>Communicate regarding application status, customer service inquiries, and promotional offers (with consent).</span></li>
+            <li class="flex items-start gap-2"><span class="text-brandOrange mt-0.5 font-black text-base leading-none">›</span><span>Comply with applicable laws, regulations, and RBI guidelines.</span></li>
+          </ul>
+        </div>
+
+        <!-- Data Sharing -->
+        <div>
+          <h3 class="font-black text-gray-900 text-base mb-2 flex items-center gap-2">
+            <span class="w-6 h-6 rounded-full bg-brandOrange/10 text-brandOrange flex items-center justify-center text-xs font-black">4</span>
+            Data Sharing &amp; Disclosure
+          </h3>
+          <p>Finwizz collaborates with RBI-registered Banks and NBFCs. Your information is shared securely with our lending partners solely for processing loan requests and conducting credit assessments. <strong>We do not sell, rent, or trade your personal information to unauthorized third parties.</strong></p>
+        </div>
+
+        <!-- Data Security -->
+        <div>
+          <h3 class="font-black text-gray-900 text-base mb-2 flex items-center gap-2">
+            <span class="w-6 h-6 rounded-full bg-brandOrange/10 text-brandOrange flex items-center justify-center text-xs font-black">5</span>
+            Data Security
+          </h3>
+          <p>We implement robust administrative, technical, and physical security measures to safeguard sensitive personal and financial data against unauthorized access, alteration, disclosure, or destruction.</p>
+        </div>
+
+        <!-- Close -->
+        <div class="pt-2">
+          <button onclick="closeLegalModal('privacyModal')"
+            class="w-full bg-brandNavy hover:bg-blue-900 text-white font-bold py-3 rounded-full text-sm transition-colors">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── MODAL 2: Terms & Conditions ── -->
+  <div id="termsModal"
+    class="fixed inset-0 z-[60] hidden items-center justify-center p-4 overflow-y-auto"
+    style="background:rgba(5,15,40,0.82);backdrop-filter:blur(6px);"
+    onclick="handleLegalBackdrop(event,'termsModal')">
+    <div class="relative bg-white w-full max-w-2xl rounded-3xl shadow-2xl my-6 overflow-hidden animate-in fade-in zoom-in-95 duration-200"
+      onclick="event.stopPropagation()">
+      <!-- Header -->
+      <div class="bg-gradient-to-r from-[#0d1b3e] to-[#1a3178] px-8 py-6 relative">
+        <span class="text-[10px] font-extrabold tracking-widest uppercase bg-orange-500/20 text-orange-300 px-2.5 py-0.5 rounded-full border border-orange-500/30">Legal Document</span>
+        <h2 class="text-xl font-black text-white mt-2">Terms &amp; Conditions</h2>
+        <p class="text-xs text-blue-200 mt-0.5">Finwizz Financial Services Pvt. Ltd.</p>
+        <button onclick="closeLegalModal('termsModal')"
+          class="absolute top-4 right-4 text-white/70 hover:text-white bg-white/10 hover:bg-white/20 w-8 h-8 rounded-full flex items-center justify-center text-lg font-bold transition-colors">✕</button>
+      </div>
+      <!-- Body -->
+      <div class="p-7 sm:p-9 space-y-6 text-sm text-gray-700 leading-relaxed max-h-[70vh] overflow-y-auto">
+
+        <!-- Acceptance -->
+        <div>
+          <h3 class="font-black text-gray-900 text-base mb-2 flex items-center gap-2">
+            <span class="w-6 h-6 rounded-full bg-brandOrange/10 text-brandOrange flex items-center justify-center text-xs font-black">1</span>
+            Acceptance of Terms
+          </h3>
+          <p>By accessing or using the Finwizz platform, website, or services, you agree to be bound by these Terms &amp; Conditions. If you do not agree with any part of these terms, please discontinue use of our services immediately.</p>
+        </div>
+
+        <!-- Eligibility -->
+        <div>
+          <h3 class="font-black text-gray-900 text-base mb-3 flex items-center gap-2">
+            <span class="w-6 h-6 rounded-full bg-brandOrange/10 text-brandOrange flex items-center justify-center text-xs font-black">2</span>
+            Eligibility Criteria
+          </h3>
+          <div class="space-y-2">
+            <div class="flex items-start gap-3 bg-emerald-50 border border-emerald-100 rounded-xl p-3">
+              <span class="text-emerald-600 font-black mt-0.5">✓</span>
+              <span class="text-xs text-gray-700">Indian citizen residing in Finwizz service locations (such as Bengaluru and Chennai).</span>
+            </div>
+            <div class="flex items-start gap-3 bg-emerald-50 border border-emerald-100 rounded-xl p-3">
+              <span class="text-emerald-600 font-black mt-0.5">✓</span>
+              <span class="text-xs text-gray-700">Minimum age of <strong>21 years</strong> at the time of application.</span>
+            </div>
+            <div class="flex items-start gap-3 bg-emerald-50 border border-emerald-100 rounded-xl p-3">
+              <span class="text-emerald-600 font-black mt-0.5">✓</span>
+              <span class="text-xs text-gray-700">Minimum net monthly income of <strong>₹20,000 &amp; above</strong> and employment guidelines as required by our lending partners.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Role of Finwizz -->
+        <div>
+          <h3 class="font-black text-gray-900 text-base mb-2 flex items-center gap-2">
+            <span class="w-6 h-6 rounded-full bg-brandOrange/10 text-brandOrange flex items-center justify-center text-xs font-black">3</span>
+            Role of Finwizz
+          </h3>
+          <div class="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl text-xs text-amber-900">
+            <p class="font-bold mb-1">Important Disclosure</p>
+            <p>Finwizz Financial Services Pvt. Ltd. acts as a <strong>digital technology platform, aggregator, and Direct Selling Agent (DSA)</strong>. We are <strong>not a direct lender</strong>. All credit evaluations, loan approvals, interest rates (starting from <strong>10.29% p.a.</strong>), loan amounts (<strong>₹1 Lakh to ₹1 Crore</strong>), and disbursements are determined solely by our partner banks and NBFCs.</p>
+          </div>
+        </div>
+
+        <!-- User Responsibilities -->
+        <div>
+          <h3 class="font-black text-gray-900 text-base mb-2 flex items-center gap-2">
+            <span class="w-6 h-6 rounded-full bg-brandOrange/10 text-brandOrange flex items-center justify-center text-xs font-black">4</span>
+            User Responsibilities
+          </h3>
+          <p>Users must provide <strong>true, accurate, and complete information</strong> during registration and loan applications. Any misrepresentation or submission of false documents may result in immediate cancellation of the application and may be reported to relevant authorities as required by law.</p>
+        </div>
+
+        <!-- Close -->
+        <div class="pt-2">
+          <button onclick="closeLegalModal('termsModal')"
+            class="w-full bg-brandNavy hover:bg-blue-900 text-white font-bold py-3 rounded-full text-sm transition-colors">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── MODAL 3: Disclaimers & Grievance Redressal ── -->
+  <div id="disclaimerModal"
+    class="fixed inset-0 z-[60] hidden items-center justify-center p-4 overflow-y-auto"
+    style="background:rgba(5,15,40,0.82);backdrop-filter:blur(6px);"
+    onclick="handleLegalBackdrop(event,'disclaimerModal')">
+    <div class="relative bg-white w-full max-w-2xl rounded-3xl shadow-2xl my-6 overflow-hidden animate-in fade-in zoom-in-95 duration-200"
+      onclick="event.stopPropagation()">
+      <!-- Header -->
+      <div class="bg-gradient-to-r from-[#0d1b3e] to-[#1a3178] px-8 py-6 relative">
+        <span class="text-[10px] font-extrabold tracking-widest uppercase bg-orange-500/20 text-orange-300 px-2.5 py-0.5 rounded-full border border-orange-500/30">Legal Document</span>
+        <h2 class="text-xl font-black text-white mt-2">Disclaimers &amp; Grievance Redressal</h2>
+        <p class="text-xs text-blue-200 mt-0.5">Finwizz Financial Services Pvt. Ltd.</p>
+        <button onclick="closeLegalModal('disclaimerModal')"
+          class="absolute top-4 right-4 text-white/70 hover:text-white bg-white/10 hover:bg-white/20 w-8 h-8 rounded-full flex items-center justify-center text-lg font-bold transition-colors">✕</button>
+      </div>
+      <!-- Body -->
+      <div class="p-7 sm:p-9 space-y-6 text-sm text-gray-700 leading-relaxed max-h-[70vh] overflow-y-auto">
+
+        <!-- Mandatory Disclaimers -->
+        <div>
+          <h3 class="font-black text-gray-900 text-base mb-3 flex items-center gap-2">
+            <span class="w-6 h-6 rounded-full bg-brandOrange/10 text-brandOrange flex items-center justify-center text-xs font-black">1</span>
+            Mandatory Financial &amp; Partner Disclaimers
+          </h3>
+          <div class="space-y-3">
+            <div class="bg-gray-50 border border-gray-200 rounded-2xl p-4">
+              <p class="font-bold text-gray-900 text-xs mb-1">🏦 Lending Partner Disclosure</p>
+              <p class="text-xs text-gray-600">Finwizz collaborates with RBI-registered Banks and NBFCs to offer reliable credit products. We facilitate, but do not sanction, loans.</p>
+            </div>
+            <div class="bg-gray-50 border border-gray-200 rounded-2xl p-4">
+              <p class="font-bold text-gray-900 text-xs mb-1">📊 Interest Rate Disclaimer</p>
+              <p class="text-xs text-gray-600">Displayed interest rates (starting from <strong>10.29% p.a.</strong>) and tenures (up to <strong>72 months</strong>) are indicative. Final rates and terms are subject to the respective lender's credit policy, CIBIL score verification (700+), and document assessment.</p>
+            </div>
+            <div class="bg-amber-50 border border-amber-200 rounded-2xl p-4">
+              <p class="font-bold text-amber-900 text-xs mb-1">⚠️ No Upfront Fee Policy</p>
+              <p class="text-xs text-amber-800"><strong>Finwizz and its authorized representatives never charge any advance, processing, or upfront fees</strong> for loan applications. If anyone demands money on behalf of Finwizz, please report it immediately to our helpline.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Grievance Redressal -->
+        <div>
+          <h3 class="font-black text-gray-900 text-base mb-3 flex items-center gap-2">
+            <span class="w-6 h-6 rounded-full bg-brandOrange/10 text-brandOrange flex items-center justify-center text-xs font-black">2</span>
+            Grievance Redressal Mechanism
+          </h3>
+          <p class="text-xs text-gray-500 mb-4">In compliance with RBI Digital Lending Guidelines, we provide the following formal grievance redressal channels:</p>
+          <div class="bg-gradient-to-br from-[#0d1b3e] to-[#1a3178] rounded-2xl p-5 space-y-3">
+            <p class="text-xs font-bold text-orange-300 uppercase tracking-wider">Contact Our Grievance Team</p>
+            <div class="flex items-center gap-3">
+              <span class="text-brandOrange text-base">📞</span>
+              <div>
+                <p class="text-[10px] text-blue-300 font-semibold uppercase tracking-wider">Helpline Numbers</p>
+                <p class="text-white font-bold text-sm">+91 8861418090 / +91 81481 05058</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="text-brandOrange text-base">✉️</span>
+              <div>
+                <p class="text-[10px] text-blue-300 font-semibold uppercase tracking-wider">Support Email</p>
+                <p class="text-white font-bold text-sm">salesfinwizz2026@gmail.com</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-brandOrange text-base mt-0.5">📍</span>
+              <div>
+                <p class="text-[10px] text-blue-300 font-semibold uppercase tracking-wider">Login &amp; Office Address</p>
+                <p class="text-white font-semibold text-xs leading-relaxed">Finwizz Financial Services Pvt. Ltd.,<br>6th Cross, Lawrence &amp; Mayo Building, 1st Floor,<br>Malleshwara Ground, Opposite Malleshwaram Circle,<br>Bangalore – 560003</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="text-brandOrange text-base">⏰</span>
+              <div>
+                <p class="text-[10px] text-blue-300 font-semibold uppercase tracking-wider">Support Hours</p>
+                <p class="text-white font-bold text-sm">Monday – Saturday, 9:30 AM to 6:30 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Close -->
+        <div class="pt-2">
+          <button onclick="closeLegalModal('disclaimerModal')"
+            class="w-full bg-brandNavy hover:bg-blue-900 text-white font-bold py-3 rounded-full text-sm transition-colors">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       STICKY BOTTOM MOBILE CONVERSION BAR
+  ======================================================== -->
+  <aside aria-label="Mobile Sticky Action Bar"
+    class="fixed bottom-0 inset-x-0 z-30 bg-white/95 backdrop-blur-md border-t border-gray-200 p-3 shadow-2xl block sm:hidden">
+    <div class="flex items-center justify-between gap-3 max-w-md mx-auto">
+      <div>
+        <span class="text-xs font-black text-gray-900 block leading-tight">Personal Loan ₹1L – ₹1Cr</span>
+        <span class="text-[10px] text-emerald-600 font-bold block">Rates from 9.95% p.a.</span>
+      </div>
+      <button onclick="openLeadModal()"
+        class="bg-brandOrange hover:bg-brandOrangeHover text-white font-extrabold text-xs px-5 py-2.5 rounded-full shadow-cta transition-all">
+        Apply Now →
+      </button>
+    </div>
+  </aside>
+
+  <!-- ========================================================
+       5-SECOND AUTO-TRIGGER STRICT QUALIFICATION MODAL
+  ======================================================== -->
+  <div id="leadModal"
+    class="fixed inset-0 z-50 hidden flex items-center justify-center p-3 sm:p-4 overflow-y-auto modal-backdrop transition-opacity duration-300">
+    <div
+      class="bg-white w-full max-w-xl rounded-3xl shadow-2xl overflow-hidden relative my-auto animate-in fade-in zoom-in-95 duration-200">
+
+      <!-- Close Button -->
+      <button onclick="closeLeadModal()"
+        class="absolute top-4 right-4 text-white/80 hover:text-white bg-black/30 hover:bg-black/50 text-xl font-bold w-8 h-8 rounded-full flex items-center justify-center z-20 transition-colors">
+        ✕
+      </button>
+
+      <!-- Modal Header -->
+      <div class="bg-gradient-to-r from-brandDarkNavy to-brandNavy text-white p-6 relative">
+        <span
+          class="text-[10px] font-extrabold tracking-widest uppercase bg-orange-500/20 text-orange-300 px-2.5 py-0.5 rounded-full border border-orange-500/30">
+          Fast-Track Checker
+        </span>
+        <h3 class="text-xl sm:text-2xl font-black mt-2">Personal Loan Eligibility Checker</h3>
+        <p class="text-xs text-blue-200 mt-1">Check pre-approved offers from ₹1 Lakh to ₹1 Crore in 60 seconds.</p>
+      </div>
+
+      <!-- Universal Acceptance & Eligibility Notice Box -->
+      <div class="px-6 pt-5">
+        <div class="bg-emerald-50 border-l-4 border-emerald-500 p-3.5 rounded-r-xl">
+          <p class="text-xs font-bold text-emerald-900 flex items-center gap-1.5">
+            <span>✅</span> INSTANT ELIGIBILITY CHECK ACROSS 19+ PARTNERS:
+          </p>
+          <p class="text-[11px] text-emerald-800 mt-1 leading-normal">
+            Applications are accepted across all credit profiles and income categories. Our system compares offers from <strong>19+ RBI-registered banks and NBFCs</strong> to match the best available rate for you.
+          </p>
+        </div>
+      </div>
+
+      <!-- Lead Capture Form -->
+      <form id="loanLeadForm" class="p-6 space-y-4" onsubmit="handleFormSubmission(event)">
+
+        <!-- Row 1: Amount & Purpose -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+          <div>
+            <label class="block text-xs font-bold text-gray-700 mb-1">Required Loan Amount *</label>
+            <select id="loanAmountInput" required
+              class="w-full border border-gray-300 rounded-xl px-3 py-2 text-xs focus:ring-2 focus:ring-brandOrange focus:border-brandOrange outline-none">
+              <option value="">Select Loan Amount</option>
+              <option value="₹1 Lakh - ₹5 Lakhs">₹1 Lakh - ₹5 Lakhs</option>
+              <option value="₹5 Lakhs - ₹15 Lakhs">₹5 Lakhs - ₹15 Lakhs</option>
+              <option value="₹15 Lakhs - ₹30 Lakhs">₹15 Lakhs - ₹30 Lakhs</option>
+              <option value="₹30 Lakhs - ₹50 Lakhs">₹30 Lakhs - ₹50 Lakhs</option>
+              <option value="₹50 Lakhs - ₹1 Crore">₹50 Lakhs - ₹1 Crore</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-gray-700 mb-1">Loan Purpose / Type *</label>
+            <select id="loanPurposeSelect" required onchange="toggleCustomPurpose(this)"
+              class="w-full border border-gray-300 rounded-xl px-3 py-2 text-xs focus:ring-2 focus:ring-brandOrange focus:border-brandOrange outline-none">
+              <option value="">Select Purpose</option>
+              <option value="Personal">Personal Loan (General)</option>
+              <option value="Debt Consolidation">Debt Consolidation</option>
+              <option value="Home Renovation">Home Renovation</option>
+              <option value="Medical">Medical Emergency</option>
+              <option value="Wedding">Wedding Expense</option>
+              <option value="Travel/Education">Travel / Higher Education</option>
+              <option value="Other">Other</option>
+            </select>
+            <!-- Dynamic custom-purpose input — shown only when "Other" is selected -->
+            <div id="customPurposeWrapper" class="hidden mt-2 relative">
+              <input type="text" id="customPurposeInput"
+                placeholder="Enter your custom loan purpose"
+                class="w-full border border-brandOrange/60 rounded-xl px-3 py-2 text-xs focus:ring-2 focus:ring-brandOrange focus:border-brandOrange outline-none bg-orange-50/40 placeholder-gray-400 transition-all"
+                oninput="syncCustomPurpose(this)">
+              <span class="absolute right-3 top-1/2 -translate-y-1/2 text-brandOrange text-[10px] font-semibold pointer-events-none">✎</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 2: Salary & Company Type -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+          <div>
+            <label class="block text-xs font-bold text-gray-700 mb-1">Net Monthly Salary *</label>
+            <select id="monthlySalaryInput" required
+              class="w-full border border-gray-300 rounded-xl px-3 py-2 text-xs focus:ring-2 focus:ring-brandOrange focus:border-brandOrange outline-none">
+              <option value="">Select Salary Range</option>
+              <option value="₹20,000 – ₹35,000">₹20,000 – ₹35,000</option>
+              <option value="₹35,001 – ₹50,000">₹35,001 – ₹50,000</option>
+              <option value="₹50,001 – ₹1,00,000">₹50,001 – ₹1,00,000</option>
+              <option value="₹1,00,000+">₹1,00,000+</option>
+              <option value="Below ₹20,000">Below ₹20,000</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-gray-700 mb-1">Employment Type *</label>
+            <select id="employmentTypeInput" required
+              class="w-full border border-gray-300 rounded-xl px-3 py-2 text-xs focus:ring-2 focus:ring-brandOrange focus:border-brandOrange outline-none">
+              <option value="">Select Company Type</option>
+              <option value="Private Limited (Pvt. Ltd.)">Private Limited (Pvt. Ltd.)</option>
+              <option value="Public Limited (Ltd.)">Public Limited (Ltd.)</option>
+              <option value="Multinational Company (MNC)">Multinational Company (MNC)</option>
+              <option value="Limited Liability Partnership (LLP)">Limited Liability Partnership (LLP)</option>
+              <option value="Partnership Firm">Partnership Firm</option>
+              <option value="Government / PSU Department">Government / PSU Department</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Row 3: City with Dynamic "Other City" Input -->
+        <div>
+          <label class="block text-xs font-bold text-gray-700 mb-1">City of Residence *</label>
+          <select id="cityDropdown" onchange="handleCityChange(this)" required
+            class="w-full border border-gray-300 rounded-xl px-3 py-2 text-xs focus:ring-2 focus:ring-brandOrange focus:border-brandOrange outline-none">
+            <option value="">Select Your City</option>
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Madurai">Madurai</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi NCR">Delhi NCR</option>
+            <option value="Pune">Pune</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="other">Other City</option>
+          </select>
+
+          <!-- Revealed dynamically if 'Other City' selected -->
+          <input type="text" id="otherCityField" placeholder="Please enter your city name"
+            class="hidden mt-2 w-full border border-gray-300 rounded-xl px-3 py-2 text-xs focus:ring-2 focus:ring-brandOrange focus:border-brandOrange outline-none">
+        </div>
+
+        <!-- Row 4: CIBIL & Bounces Verification -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+          <div>
+            <label class="block text-xs font-bold text-gray-700 mb-1">CIBIL Score Status *</label>
+            <select id="cibilScoreInput" required
+              class="w-full border border-gray-300 rounded-xl px-3 py-2 text-xs focus:ring-2 focus:ring-brandOrange focus:border-brandOrange outline-none">
+              <option value="">Do you have 700+ CIBIL?</option>
+              <option value="Yes, CIBIL 700+">Yes, CIBIL 700+</option>
+              <option value="No, Below 700">No, Below 700</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-gray-700 mb-1">Cheque Bounce / Overdue *</label>
+            <select id="bounceInput" required
+              class="w-full border border-gray-300 rounded-xl px-3 py-2 text-xs focus:ring-2 focus:ring-brandOrange focus:border-brandOrange outline-none">
+              <option value="">Any Past Bounce/Overdues?</option>
+              <option value="No Bounces &amp; Zero Overdues">No Bounces & Zero Overdues</option>
+              <option value="Yes, have past bounce/overdues">Yes, have past bounce/overdues</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Row 5: Running EMIs & Email -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+          <div>
+            <label class="block text-xs font-bold text-gray-700 mb-1">Current Running Monthly EMIs (₹) *</label>
+            <input type="number" id="runningEmiInput" placeholder="Enter ₹0 if you currently pay no EMIs" required min="0"
+              class="w-full border border-gray-300 rounded-xl px-3 py-2 text-xs focus:ring-2 focus:ring-brandOrange focus:border-brandOrange outline-none">
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-gray-700 mb-1">Email Address *</label>
+            <input type="email" id="emailInput" placeholder="name@example.com" required
+              class="w-full border border-gray-300 rounded-xl px-3 py-2 text-xs focus:ring-2 focus:ring-brandOrange focus:border-brandOrange outline-none">
+          </div>
+        </div>
+
+        <!-- Row 6: Personal Identity & Contact -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+          <div>
+            <label class="block text-xs font-bold text-gray-700 mb-1">Full Name (As per PAN) *</label>
+            <input type="text" id="fullNameInput" placeholder="e.g. Rahul Sharma" required
+              class="w-full border border-gray-300 rounded-xl px-3 py-2 text-xs focus:ring-2 focus:ring-brandOrange focus:border-brandOrange outline-none">
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-gray-700 mb-1">Mobile Number (For Bank Status) *</label>
+            <input type="tel" id="mobileInput" pattern="[6-9][0-9]{9}" placeholder="10-digit mobile number" required
+              class="w-full border border-gray-300 rounded-xl px-3 py-2 text-xs focus:ring-2 focus:ring-brandOrange focus:border-brandOrange outline-none">
+          </div>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit"
+          class="w-full bg-brandOrange hover:bg-brandOrangeHover text-white font-extrabold py-3.5 px-4 rounded-xl shadow-cta transition-all text-sm uppercase tracking-wide">
+          Check Eligibility & Get Loan Offers →
+        </button>
+
+        <p class="text-[11px] text-gray-400 text-center flex items-center justify-center gap-1">
+          <span>🔒</span> 100% Free Service • Direct Bank Credit • No Impact on Credit Score
+        </p>
+
+      </form>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       MODAL SUCCESS / DISQUALIFICATION NOTIFICATION BOX
+  ======================================================== -->
+  <!-- ── Full-screen Success Confirmation Modal ── -->
+  <div id="successModal"
+    class="fixed inset-0 z-[70] hidden items-center justify-center p-4"
+    style="background:rgba(5,15,40,0.88);backdrop-filter:blur(8px);">
+    <div class="bg-white rounded-3xl shadow-2xl w-full max-w-sm text-center p-8 relative animate-in fade-in zoom-in-95 duration-200">
+      <!-- Confetti ring -->
+      <div class="w-20 h-20 rounded-full bg-emerald-100 flex items-center justify-center mx-auto mb-4 text-4xl shadow-inner">🎉</div>
+      <h3 class="text-xl font-black text-gray-900">Application Submitted!</h3>
+      <p id="successModalName" class="text-brandOrange font-bold text-sm mt-1"></p>
+      <p class="text-sm text-gray-600 mt-3 leading-relaxed">
+        Your details have been securely recorded. Our senior loan advisor will call you within
+        <strong>24 working hours</strong> with pre-approved bank offers starting at <strong>9.95% p.a.</strong>
+      </p>
+      <div class="mt-5 bg-emerald-50 border border-emerald-200 rounded-2xl p-3 text-xs text-emerald-800 font-semibold">
+        ✅ Zero fee charged &nbsp;•&nbsp; 🔒 Data encrypted &nbsp;•&nbsp; 📞 Expert call-back guaranteed
+      </div>
+      <button onclick="closeSuccessModal()"
+        class="mt-6 w-full bg-brandOrange hover:bg-brandOrangeHover text-white font-extrabold py-3 rounded-full text-sm transition-colors">
+        Got It, Thanks! →
+      </button>
+    </div>
+  </div>
+
+  <div id="statusAlertBox"
+    class="fixed top-5 right-5 z-50 hidden max-w-sm bg-white border-2 rounded-2xl p-4 shadow-2xl transition-all">
+    <div class="flex items-start gap-3">
+      <div id="statusIcon" class="text-2xl">✅</div>
+      <div>
+        <h4 id="statusTitle" class="text-sm font-bold text-gray-900">Application Status</h4>
+        <p id="statusMsg" class="text-xs text-gray-600 mt-1 leading-normal"></p>
+        <button onclick="dismissStatusAlert()" class="mt-2 text-xs font-bold text-brandNavy underline">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       VANILLA JAVASCRIPT LOGIC
+  ======================================================== -->
+  <script>
+    // 1. 5-Second Auto-Trigger Modal Logic
+    let modalHasBeenOpened = false;
+    window.addEventListener('DOMContentLoaded', () => {
+      setTimeout(() => {
+        if (!modalHasBeenOpened) {
+          openLeadModal();
+        }
+      }, 5000);
+    });
+
+    // 2. Open Modal Function
+    function openLeadModal() {
+      modalHasBeenOpened = true;
+      const modal = document.getElementById('leadModal');
+      modal.classList.remove('hidden');
+      document.body.classList.add('overflow-hidden');
+    }
+
+    // 3. Close Modal Function
+    function closeLeadModal() {
+      const modal = document.getElementById('leadModal');
+      modal.classList.add('hidden');
+      document.body.classList.remove('overflow-hidden');
+    }
+
+    // Close on click outside modal content
+    window.addEventListener('click', (e) => {
+      const modal = document.getElementById('leadModal');
+      if (e.target === modal) {
+        closeLeadModal();
+      }
+    });
+
+    // 4. Dynamic "Other City" Input Toggle
+    function handleCityChange(selectElem) {
+      const otherField = document.getElementById('otherCityField');
+      if (selectElem.value === 'other') {
+        otherField.classList.remove('hidden');
+        otherField.setAttribute('required', 'true');
+        otherField.focus();
+      } else {
+        otherField.classList.add('hidden');
+        otherField.removeAttribute('required');
+      }
+    }
+
+    // 5. Search / Filter Banks in Comparison Grid
+    function filterBanks() {
+      const input = document.getElementById('bankSearchInput').value.toLowerCase();
+      const cards = document.querySelectorAll('.bank-card');
+
+      cards.forEach(card => {
+        const bankName = card.querySelector('.bank-name').textContent.toLowerCase();
+        if (bankName.includes(input)) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // 6. Accordion Toggle for FAQs
+    function toggleFaq(id) {
+      const content = document.getElementById(`faqContent-${id}`);
+      const icon = document.getElementById(`faqIcon-${id}`);
+
+      if (content.classList.contains('hidden')) {
+        content.classList.remove('hidden');
+        icon.textContent = '−';
+      } else {
+        content.classList.add('hidden');
+        icon.textContent = '+';
+      }
+    }
+
+    // 7. Form Submission — Google Sheets Web App Integration
+    // Keep this URL, or replace it with the URL from your Apps Script deployment.
+    const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx02UHP4NrbsSzvDlkZ4sMKatFRO8CA3GitGf5HSqInqs3scW7_H1UiI8XdLTYWUZqi/exec';
+
+    async function handleFormSubmission(event) {
+      event.preventDefault();
+
+      const form = document.getElementById('loanLeadForm');
+      if (!form || !form.reportValidity()) return;
+
+      const submitBtn = form.querySelector('button[type="submit"]');
+      const originalBtnText = submitBtn.innerHTML;
+
+      const getValue = (id) => {
+        const element = document.getElementById(id);
+        return element ? element.value.trim() : '';
+      };
+
+      const selectedText = (id) => {
+        const element = document.getElementById(id);
+        return element && element.selectedIndex >= 0
+          ? element.options[element.selectedIndex].text.trim()
+          : '';
+      };
+
+      const purposeSelect = document.getElementById('loanPurposeSelect');
+      const customPurpose = getValue('customPurposeInput');
+      const loanPurpose = purposeSelect && purposeSelect.value === 'Other'
+        ? customPurpose
+        : selectedText('loanPurposeSelect');
+
+      const citySelect = document.getElementById('cityDropdown');
+      const city = citySelect && citySelect.value === 'other'
+        ? getValue('otherCityField')
+        : getValue('cityDropdown');
+
+      const payload = {
+        timestamp: new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' }),
+        fullName: getValue('fullNameInput'),
+        mobileNumber: getValue('mobileInput'),
+        email: getValue('emailInput'),
+        requiredLoanAmount: selectedText('loanAmountInput'),
+        loanPurpose: loanPurpose,
+        netMonthlySalary: selectedText('monthlySalaryInput'),
+        employmentType: selectedText('employmentTypeInput'),
+        cityOfResidence: city,
+        cibilStatus: selectedText('cibilScoreInput'),
+        chequeBounce: selectedText('bounceInput'),
+        runningEmis: getValue('runningEmiInput') || '0'
+      };
+
+      // Basic client-side checks; Apps Script also validates the received data.
+      if (!/^[6-9][0-9]{9}$/.test(payload.mobileNumber)) {
+        alert('Please enter a valid 10-digit mobile number.');
+        return;
+      }
+
+      if (!payload.fullName || !payload.email || !payload.requiredLoanAmount ||
+          !payload.loanPurpose || !payload.netMonthlySalary ||
+          !payload.employmentType || !payload.cityOfResidence ||
+          !payload.cibilStatus || !payload.chequeBounce) {
+        alert('Please complete all required fields.');
+        return;
+      }
+
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = '<span class="inline-flex items-center gap-2"><svg class="animate-spin w-4 h-4" viewBox="0 0 24 24" fill="none"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8z"/></svg> Submitting…</span>';
+
+      try {
+        // URLSearchParams sends standard form fields, which Apps Script reads via e.parameter.
+        // no-cors avoids the browser preflight/CORS response-reading issue with Apps Script.
+        const formData = new URLSearchParams();
+        Object.entries(payload).forEach(([key, value]) => formData.append(key, value));
+
+        await fetch(APPS_SCRIPT_URL, {
+          method: 'POST',
+          mode: 'no-cors',
+          body: formData
+        });
+
+        // no-cors responses are opaque: this confirms the request was sent,
+        // but cannot independently verify that Google Sheets appended the row.
+        form.reset();
+        document.getElementById('otherCityField').classList.add('hidden');
+        document.getElementById('customPurposeWrapper').classList.add('hidden');
+        onSubmitSuccess(payload);
+
+      } catch (error) {
+        console.error('Google Sheets submission failed:', error);
+        alert('Submission could not be sent. Please check your internet connection and try again.');
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalBtnText;
+      }
+    }
+
+    // 8. Universal 100% Acceptance Handler (All criteria accepted)
+    function onSubmitSuccess(payload) {
+      closeLeadModal();
+      showSuccessModal(payload.fullName);
+    }
+
+    function showSuccessModal(name) {
+      const modal = document.getElementById('successModal');
+      const nameEl = document.getElementById('successModalName');
+      if (name) nameEl.textContent = 'Hi, ' + name + '! 👋';
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeSuccessModal() {
+      const modal = document.getElementById('successModal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+      document.body.style.overflow = '';
+    }
+
+    function showStatusAlert(title, message, borderClass, icon) {
+      const box = document.getElementById('statusAlertBox');
+      const titleElem = document.getElementById('statusTitle');
+      const msgElem = document.getElementById('statusMsg');
+      const iconElem = document.getElementById('statusIcon');
+
+      box.className = `fixed top-5 right-5 z-50 max-w-sm bg-white border-2 rounded-2xl p-4 shadow-2xl transition-all ${borderClass}`;
+      titleElem.textContent = title;
+      msgElem.textContent = message;
+      iconElem.textContent = icon;
+
+      box.classList.remove('hidden');
+
+      setTimeout(() => {
+        dismissStatusAlert();
+      }, 9000);
+    }
+
+    function dismissStatusAlert() {
+      document.getElementById('statusAlertBox').classList.add('hidden');
+    }
+
+    // ── Legal Modal Helpers ──────────────────────────────────────
+    function openLegalModal(id) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.classList.remove('hidden');
+      el.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLegalModal(id) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.classList.add('hidden');
+      el.classList.remove('flex');
+      const anyOpen = ['privacyModal','termsModal','disclaimerModal']
+        .some(mid => !document.getElementById(mid).classList.contains('hidden'));
+      if (!anyOpen) document.body.style.overflow = '';
+    }
+
+    function handleLegalBackdrop(event, id) {
+      if (event.target === event.currentTarget) closeLegalModal(id);
+    }
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        ['privacyModal','termsModal','disclaimerModal'].forEach(function(id){ closeLegalModal(id); });
+      }
+    });
+
+    // ── Loan Purpose "Other" Toggle ──────────────────────────────
+    function toggleCustomPurpose(select) {
+      const wrapper = document.getElementById('customPurposeWrapper');
+      const input   = document.getElementById('customPurposeInput');
+      if (select.value === 'Other') {
+        wrapper.classList.remove('hidden');
+        input.required = true;
+        input.focus();
+      } else {
+        wrapper.classList.add('hidden');
+        input.required = false;
+        input.value = '';
+        // Restore the select's submitted value to the chosen option
+        select.setAttribute('data-custom', '');
+      }
+    }
+
+    // Keep the select's form value in sync when user types a custom purpose
+    function syncCustomPurpose(input) {
+      // Store the typed value as a data attribute; read during submission if needed
+      document.getElementById('loanPurposeSelect').setAttribute('data-custom', input.value.trim());
+    }
+  </script>
+</body>
+
+</html>
